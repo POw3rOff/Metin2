@@ -1,11 +1,11 @@
 # forked.setdeadcount()
-Функция **forked.setdeadcount** устанавливает количество раз, сколько может умереть каждый игрок во время битвы империй.
+A função **forked.setdeadcount** define количество раз, сколько может умереть каждый игрок во время битвы империй.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Функция не принимает никаких параметров. Количество допустимых смертей устанавливается через эвентовый флаг `threeway_war_dead_count`, например функцией [game.set_event_flag](../game/game.set_event_flag.md)().
+Функция не принимает никаких параметров. Количество por exemploых смертей defineся через эвентовый флаг `threeway_war_dead_count`, например функцией [game.set_event_flag](../game/game.set_event_flag.md)().
 
-Данная функция не означает, что игрок автоматически вылетит с битвы империй, когда умрет. Для того, чтобы он вылетел, надо использовать проверку с помощью функции [forked.setdeadcount](../forked/forked.setdeadcount.md)() и использовать функцию телепортации, вроде [pc.warp](../pc/pc.warp.md)().
+Данная функция не означает, что игрок автоматически вылетит с битвы империй, когда умрет. Для того, чтобы он вылетел, надо использовать проверку usando a função [forked.setdeadcount](../forked/forked.setdeadcount.md)() и использовать функцию телепортации, вроде [pc.warp](../pc/pc.warp.md)().
 
-Данная функция работает только во время битвы империй (см. [forked](../forked)).
+Esta função funciona apenas durante a batalha dos impérios (ver [forked](../forked)).

@@ -1,11 +1,11 @@
 # marriage.wedding_snow()
-Функция **marriage.wedding_snow** запускает выпадение снега на свадебном острове.
+A função **marriage.wedding_snow** inicia выпадение снега на свадебном острове.
 
-## Параметры функции
+## Parâmetros da função
 ### do_snow
-Тип *boolean*. **Обязательный параметр**. `true` для того, чтобы включить выпадение снега; `false`, чтобы выключить.
+Tipo *boolean*. **Parâmetro obrigatório**. `true` для того, чтобы включить выпадение снега; `false`, чтобы выключить.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Функция может использоваться только игроками, которые запустили церемонию бракосочетания. Гости вызывать эту функцию не могут.
+A função pode ser usada apenas por jogadores, que iniciaram a cerimónia de casamento. Os convidados não podem chamar esta função.

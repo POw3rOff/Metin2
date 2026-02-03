@@ -1,15 +1,15 @@
 # item.next_refine_vnum()
-Функция item.get_refine_vnum() сообщает vnum предмета, который будет следующим, если улучшить определенный предмет.
+Функция item.get_refine_vnum() informa vnum предмета, который будет следующим, se улучшить um determinado предмет.
 
-## Параметры функции
+## Parâmetros da função
 ### item_vnum
-Тип *number*. **Обязательный параметр**. vnum предмета, ID переточки которого необходимо узнать.
+Tipo *number*. **Parâmetro obrigatório**. vnum предмета, ID переточки которого необходимо узнать.
 
-## Возвращаемые значения
+## Valores de retorno
 ### item_vnum
-Тип *number*. vnum следующего предмета из `player.item_proto` (поле `refined_vnum`). Если параметр не был задан, если параметр не является числом или если предмет не может быть улучшен, то возвращается `0`.
+Tipo *number*. vnum следующего предмета из `player.item_proto` (поле `refined_vnum`). Se параметр não foi definido, se параметр não for um número ou se предмет не может быть улучшен, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Эта функция является почти копией функции [item.get_refine_vnum](../item/item.get_refine_vnum.md)() в той лишь разницей, что функция [item.get_refine_vnum](../item/item.get_refine_vnum.md)() работает только с &laquo;выделенными&raquo; предметами, а эта функция принимает vnum предмета в качестве параметра.

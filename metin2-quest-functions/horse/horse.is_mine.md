@@ -1,9 +1,9 @@
 # horse.is_mine()
-Функция **horse.is_mine** проверяет, принадлежит ли лошадь игроку или нет.
+A função **horse.is_mine** verifica se принадлежит ли лошадь игроку ou нет.
 
-## Возвращаемые значения
+## Valores de retorno
 ### is_mine
-Тип *boolean*. Является ли игрок, вызвавший функцию, владельцем лошади. `true`, если является; `false`, если не является владельцем, если NPC не является лошадью или если лошадь не была выделена через триггеры [chat](../_triggers/chat.md), [take](../_triggers/take.md) или любым другим способом.
+Tipo *boolean*. Является ли игрок, que chamou a função, владельцем лошади. `true`, se является; `false`, se не является владельцем, se NPC не является лошадью ou se лошадь не была выделена через триггеры [chat](../_triggers/chat.md), [take](../_triggers/take.md) ou любым другим способом.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

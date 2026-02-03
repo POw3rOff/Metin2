@@ -1,13 +1,13 @@
 # game.get_event_flag()
-Функция **game.get_event_flag** сообщает значение эвентового (серверного) флага.
+A função **game.get_event_flag** informa значение эвентового (серверного) флага.
 
-## Параметры функции
+## Parâmetros da função
 ### flag_name
-Тип *string*. **Обязательный параметр**. Имя флага.
+Tipo *string*. **Parâmetro obrigatório**. Имя флага.
 
-## Возвращаемые значения
+## Valores de retorno
 ### value
-Тип *number*. Значение эвентового флага. Если параметр [flag_name](#flag_name) не является строкой, а также если флага с таким именем не существует, то возвращается `0`.
+Tipo *number*. Значение эвентового флага. Se параметр [flag_name](#flag_name) не является строкой, а также se флага с таким именем não existe, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

@@ -1,13 +1,13 @@
 # d.get_map_index()
-Функция **d.get_map_index** сообщает индекс локации, в которой создано подземелье.
+A função **d.get_map_index** informa индекс локации, в ao qual создано подземелье.
 
-## Возвращаемые значения
+## Valores de retorno
 ### map_index
-Тип *number*. ID локации, в которой создано подземелье. Если функция была вызвана вне подземелья, то возвращается `0`.
+Tipo *number*. ID локации, в ao qual создано подземелье. Se функция была вызвана вне подземелья, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-В отличие от этой функции, функция [pc.get_map_index](../pc/pc.get_map_index.md)() возвращает уникальный ID подземелья.
+В отличие от этой функции, функция [pc.get_map_index](../pc/pc.get_map_index.md)() retorna уникальный ID подземелья.
 
-Функция работает только в подземельях.
+A função funciona apenas em masmorras.

@@ -1,7 +1,7 @@
 # set_bgm_volume_enable()
 Функция **set_bgm_volume_enable** включает фоновую музыку у персонажа.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-В статье могут быть неточности.
+O artigo pode conter imprecisões.

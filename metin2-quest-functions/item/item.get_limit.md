@@ -1,20 +1,20 @@
 # item.get_limit()
-Функция **item.get_limit** сообщает требования, необходимые для использования предмета.
+A função **item.get_limit** informa требования, необходимые для использования предмета.
 
-## Параметры функции
+## Parâmetros da função
 ### limit_index
-Тип *number*. **Обязательный параметр**. В `player.item_proto` есть поля `limittype0`, `limitvalue0`, `limittype1` и `limitvalue1`. В качестве этого параметра надо указать число, идущее после названия необходимых полей, которые надо получить. Допустим, если вы хотите получить информацию о первой паре полей (`limittype0` и `limitvalue0`), то в качестве параметра надо указать `0`.
+Tipo *number*. **Parâmetro obrigatório**. В `player.item_proto` есть поля `limittype0`, `limitvalue0`, `limittype1` и `limitvalue1`. В качестве этого параметра надо указать число, идущее после названия необходимых полей, которые надо получить. Допустим, se вы хотите получить информацию о первой паре полей (`limittype0` и `limitvalue0`), então в качестве параметра надо указать `0`.
 
-## Возвращаемые значения
+## Valores de retorno
 ### limits
-Тип *mixed*. В случае, если предмет не был &laquo;выделен&raquo;, то ничего не возвращается, то бишь `nil`.
+Tipo *mixed*. В случае, se предмет не был &laquo;выделен&raquo;, então nada é retornado, ou seja `nil`.
 
-Если параметр не является числом или если параметр меньше `0` или больше `1`, то возвращается `0` <sup>number</sup>.
+Se параметр não for um número ou se параметр меньше `0` ou больше `1`, então é retornado `0` <sup>number</sup>.
 
-Если функция выполнилась без ошибок, то возвращается таблица, которая выглядит примерно так: `{limittype, limitvalue}`. `limittype` &mdash; это тип ограничения, а `limitvalue` &mdash; значение ограничения.
+Se функция выполнилась без ошибок, então é retornado таблица, которая выглядит примерно так: `{limittype, limitvalue}`. `limittype` &mdash; это тип ограничения, а `limitvalue` &mdash; значение ограничения.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Существуют следующие типы ограничений:
 
@@ -30,4 +30,6 @@
 | 7 | LIMIT_REAL_TIME | неизвестно |
 | 8 | LIMIT_REAL_TIME_START_FIRST_USE | неизвестно |
 | 9 | LIMIT_TIMER_BASED_ON_WEAR | неизвестно |
-| 10 | LIMIT_MAX_NUM | неизвестно |Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+| 10 | LIMIT_MAX_NUM | неизвестно |
+
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

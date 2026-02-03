@@ -1,8 +1,8 @@
 # horse.advance()
-Функция **horse.advance** увеличивает уровень лошади на 1.
+A função **horse.advance** aumenta уровень лошади на 1.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Уровень лошади не может быть больше `30`.
 

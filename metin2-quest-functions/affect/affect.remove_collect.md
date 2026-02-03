@@ -1,5 +1,5 @@
 # affect.remove_collect()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

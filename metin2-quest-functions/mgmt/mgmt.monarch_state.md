@@ -1,24 +1,24 @@
 # mgmt.monarch_state()
-Функция **mgmt.monarch_state** сообщает информацию об императоре определенной империи.
+A função **mgmt.monarch_state** informa информацию об императоре определенной империи.
 
-## Параметры функции
+## Parâmetros da função
 ### empire_id
-Тип *number*. **Обязательный параметр**. ID империи от `1` до `3`. `1` &mdash; Шиньзо (красная империя); `2` &mdash; Хунджо (желтая империя); `3` &mdash; Джинно (синяя империя).
+Tipo *number*. **Parâmetro obrigatório**. ID do império от `1` до `3`. `1` &mdash; Шиньзо (красная империя); `2` &mdash; Хунджо (желтая империя); `3` &mdash; Джинно (синяя империя).
 
-## Возвращаемые значения
+## Valores de retorno
 ### player_name
-Тип *mixed*. Если параметр не является числом или если он меньше 0 или больше 3, то возвращается `nil`, и последующие значения не возвращаются.
+Tipo *mixed*. Se параметр não for um número ou se он меньше 0 ou больше 3, então é retornado `nil`, и последующие значения не возвращаются.
 
 Имя персонажа <sup>string</sup>.
 
 ### player_id
-Тип *number*. ID персонажа.
+Tipo *number*. ID персонажа.
 
 ### date
-Тип *string*. Значение данного возвращаемого значения неизвестно.
+Tipo *string*. O significado deste valor de retorno é desconhecido.
 
 ### money
-Тип *number*. Значение данного возвращаемого значения неизвестно.
+Tipo *number*. O significado deste valor de retorno é desconhecido.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

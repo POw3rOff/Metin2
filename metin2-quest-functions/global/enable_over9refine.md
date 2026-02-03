@@ -1,5 +1,5 @@
 # enable_over9refine()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.

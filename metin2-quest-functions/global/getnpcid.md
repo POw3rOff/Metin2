@@ -1,15 +1,15 @@
 # getnpcid()
-Функция **getnpcid** сообщает ID NPC по его имени.
+A função **getnpcid** informa ID NPC по его имени.
 
-## Параметры функции
+## Parâmetros da função
 ### npc_name
-Тип *string*. **Обязательный параметр**. Имя NPC.
+Tipo *string*. **Parâmetro obrigatório**. Имя NPC.
 
-## Возвращаемые значения
+## Valores de retorno
 ### npc_vnum
-Тип *number*. ID NPC. Если такого NPC не существует, то возвращается `0`.
+Tipo *number*. ID NPC. Se такого NPC não existe, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Неизвестно, сработает ли эта функция, если указать ID монстра.
+Неизвестно, сработает ли эта функция, se указать ID do monstro.

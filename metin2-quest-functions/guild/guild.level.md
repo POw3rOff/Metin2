@@ -1,13 +1,13 @@
 # guild.level()
-Функция **guild.level** сообщает уровень определенной гильдии.
+A função **guild.level** informa уровень определенной гильдии.
 
-## Параметры функции
+## Parâmetros da função
 ### guild_id
-Тип *number*. **Обязательный параметр**. ID гильдии.
+Tipo *number*. **Parâmetro obrigatório**. ID da guilda.
 
-## Возвращаемые значения
+## Valores de retorno
 ### guild_level
-Тип *number*. Уровень гильдии. Если гильдия с заданным ID не была найдена, то возвращается `0`.
+Tipo *number*. Уровень гильдии. Se гильдия с заданным ID не была найдена, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

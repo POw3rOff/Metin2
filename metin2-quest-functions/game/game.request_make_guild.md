@@ -1,5 +1,5 @@
 # game.request_make_guild()
 Функция **game.request_make_guild** открывает у игрока окно ввода названия гильдии. После ввода названия она будет создана.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

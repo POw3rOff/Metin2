@@ -1,13 +1,13 @@
 # item.get_sub_type()
-Функция **item.get_sub_type** сообщает subtype &laquo;выделенного&raquo; предмета.
+A função **item.get_sub_type** informa subtype &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### item_subtype
-Тип *number*. subtype &laquo;выделенного&raquo; предмета. Если предмет не был &laquo;выделен&raquo;, то возвращается `0`.
+Tipo *number*. subtype &laquo;выделенного&raquo; предмета. Se o item não tiver sido &laquo;selecionado&raquo;, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-`subtype`, что логично, является чем-то вроде подгруппы для каждого `type`. Например, для `type`, который равен `12` (рыба), существуют значения `subtype`, которые определяют, живая (`0`) это рыба или мертвая (`1`). Их слишком много и описаны в этой статье они не будут.
+`subtype`, что логично, является чем-então вроде подгруппы для каждого `type`. Например, для `type`, который равен `12` (рыба), существуют значения `subtype`, которые определяют, живая (`0`) это рыба ou мертвая (`1`). Их слишком много и описаны в этой статье они не будут.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

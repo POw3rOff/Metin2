@@ -1,9 +1,9 @@
 # get_special_item_group()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Параметры функции
+## Parâmetros da função
 ### item_vnum
-Тип *number*. **Обязательный параметр**. ID предмета-сундука из файла `special_item_group.txt`.
+Tipo *number*. **Parâmetro obrigatório**. ID do item-сундука из файла `special_item_group.txt`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

@@ -1,22 +1,22 @@
 # server_timer()
-Функция **server_timer** создает серверный таймер.
+A função **server_timer** cria серверный таймер.
 
-## Параметры функции
+## Parâmetros da função
 ### timer_name
-Тип *string*. **Обязательный параметр**. Имя таймера. Должно начинаться с латинской буквы. Может содержать только латиницу, нижние прочерки и числа.
+Tipo *string*. **Parâmetro obrigatório**. Nome do temporizador. Deve começar com uma letra latina. Pode conter apenas letras latinas, sublinhados e números.
 
 ### time
-Тип *number*. **Обязательный параметр**. Количество секунд, по прошествии которых сработает таймер.
+Tipo *number*. **Parâmetro obrigatório**. Quantidade de segundos, após os quais o temporizador será acionado.
 
 ### argument
-Тип *number*. Аргумент, который будет передан в таймер. Этот аргумент можно будет получить из триггера [server_timer](../_triggers/server_timer.md) с помощью функции [get_server_timer_arg](../global/get_server_timer_arg.md)(). По умолчанию аргумент равен `0`.
+Tipo *number*. Argumento que será passado para o temporizador. Este argumento pode ser obtido a partir do gatilho [server_timer](../_triggers/server_timer.md) usando a função [get_server_timer_arg](../global/get_server_timer_arg.md)(). Por defeito, o argumento é igual a `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Подробности о работе серверного таймера читайте в статье о триггере [server_timer](../_triggers/server_timer.md).
+Leia os detalhes sobre o funcionamento do temporizador do servidor no artigo sobre o gatilho [server_timer](../_triggers/server_timer.md).
 
-Обратите внимание на то, что таймер не может вызвать сам себя. Т.е. эта конструкция вызовет ошибку:
+Note que o temporizador não pode chamar a si mesmo. ou seja, esta construção causará um erro:
 
 ````lua
 when login begin

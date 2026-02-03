@@ -1,11 +1,11 @@
 # d.count_monster()
-Функция **d.count_monster** сообщает количество монстров в подземелье.
+A função **d.count_monster** informa количество монстров na masmorra.
 
-## Возвращаемые значения
+## Valores de retorno
 ### mob_count
-Тип *number*. Количество монстров в подземелье. Не точно, но если функция была вызвана вне подземелья, то возвращается `0`.
+Tipo *number*. Количество монстров na masmorra. Не точно, но se функция была вызвана вне подземелья, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Функция работает только в подземельях.
+A função funciona apenas em masmorras.

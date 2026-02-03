@@ -1,15 +1,15 @@
 # __give_char_priv()
-Функция **__give_char_priv** устанавливает персонажу, вызвавшему эту функцию, определенную персональную квоту.
+A função **__give_char_priv** define персонажу, вызвавшему эту функцию, определенную персональную квоту.
 
-## Параметры функции
+## Parâmetros da função
 ### priv_id
-Тип *number*. **Обязательный параметр**. ID квоты. `1` &mdash; дроп; `2` &mdash; янги; `3` &mdash; большие кучки янг; `4` &mdash; опыт.
+Tipo *number*. **Parâmetro obrigatório**. ID da quota. `1` &mdash; дроп; `2` &mdash; янги; `3` &mdash; большие кучки янг; `4` &mdash; опыт.
 
 ### priv_value
-Тип *number*. **Обязательный параметр**. Сколько процентов квоты будет установлено персонажу. Значения больше `1000`, вероятнее всего, будут уменьшены до `1000`.
+Tipo *number*. **Parâmetro obrigatório**. Qual a percentagem da quota que será definida персонажу. Valores superiores a `1000` serão provavelmente reduzidos para `1000`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Неизвестно, как долго у персонажа будет эта квота, поскольку параметра, отвечающего за длительность квоты, у этой функции нет.
 

@@ -1,7 +1,7 @@
 # affect.remove_good()
-Функция **affect.remove_good** удаляет положительные бонусы или баффы.
+A função **affect.remove_good** remove положительные бонусы ou баффы.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Неизвестно, какие именно бонусы и баффы удаляет эта функци.

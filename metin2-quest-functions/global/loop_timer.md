@@ -1,16 +1,16 @@
 # loop_timer()
-Функция **loop_timer** создает цикличный таймер, привязанный к персонажу.
+A função **loop_timer** cria цикличный таймер, привязанный к персонажу.
 
-## Параметры функции
+## Parâmetros da função
 ### timer_name
-Тип *string*. **Обязательный параметр**. Имя таймера. Должно начинаться с латинской буквы. Может содержать только латиницу, нижние прочерки и числа.
+Tipo *string*. **Parâmetro obrigatório**. Nome do temporizador. Deve começar com uma letra latina. Pode conter apenas letras latinas, sublinhados e números.
 
 ### time
-Тип *number*. **Обязательный параметр**. Количество секунд, по прошествии которых сработает таймер.
+Tipo *number*. **Parâmetro obrigatório**. Quantidade de segundos, após os quais o temporizador será acionado.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Обратите внимание на то, что после выхода из игры и после телепортации таймер будет обнулён.
+Note que após sair do jogo e após o teletransporte, o temporizador será reiniciado.
 
 В отличие от функции [timer](../global/timer.md)(), эта функция вызывает триггер [timer](../_triggers/timer.md) бесконечное количество раз. После того, как на таймере заканчивается время, он запускается по новой.

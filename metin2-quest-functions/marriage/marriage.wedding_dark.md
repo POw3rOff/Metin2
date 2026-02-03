@@ -1,11 +1,11 @@
 # marriage.wedding_dark()
 Функция **marriage.wedding_dark** меняет время суток на свадебном острове.
 
-## Параметры функции
+## Parâmetros da função
 ### do_night
-Тип *boolean*. **Обязательный параметр**. `true` для того, чтобы установить ночь; `false`, чтобы установить день.
+Tipo *boolean*. **Parâmetro obrigatório**. `true` для того, чтобы установить ночь; `false`, чтобы установить день.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Функция может использоваться только игроками, которые запустили церемонию бракосочетания. Гости вызывать эту функцию не могут.
+A função pode ser usada apenas por jogadores, que iniciaram a cerimónia de casamento. Os convidados não podem chamar esta função.

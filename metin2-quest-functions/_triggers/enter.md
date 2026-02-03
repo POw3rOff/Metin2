@@ -1,2 +1,2 @@
 # enter
-Назначение этого триггера неизвестно.
+O objetivo deste gatilho é desconhecido.

@@ -1,16 +1,16 @@
 # item.get_wearflag()
-Функция **item.get_wearflag** сообщает `wearflag` &laquo;выделенного&raquo; предмета.
+A função **item.get_wearflag** informa `wearflag` &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### wearflag
-Тип *number*. `wearflag` предмета. Если предмет не был &laquo;выделен&raquo;, то возвращается `0`.
+Tipo *number*. `wearflag` предмета. Se o item não tiver sido &laquo;selecionado&raquo;, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Существуют следующие значения `wearflag`:
 
-| wearflag | Название флага | Назначение |
+| wearflag | Nome da flag | Назначение |
 | --- | --- | --- |
 | 0 | — | Предмет никуда не надевается |
 | 1 | WEARABLE_BODY | Предмет надевается в слот для брони |
@@ -27,4 +27,4 @@
 | 2048 | WEARABLE_ABILITY | неизвестно |
 | 4096 | WEARABLE_COSTUME_BODY | неизвестно |
 
- Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+ Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

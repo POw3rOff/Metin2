@@ -1,14 +1,14 @@
 # d.spawn()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Параметры функции
+## Parâmetros da função
 ### mob_vnum
-Тип *number*. **Обязательный параметр**. ID монстра.
+Tipo *number*. **Parâmetro obrigatório**. ID do monstro.
 
-### Неизвестный параметр
-Тип *string*. **Обязательный параметр**. Назначение параметра неизвестно.
+### Parâmetro Desconhecido
+Tipo *string*. **Parâmetro obrigatório**. O objetivo do parâmetro é desconhecido.
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

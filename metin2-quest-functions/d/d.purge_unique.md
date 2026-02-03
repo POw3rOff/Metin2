@@ -1,15 +1,15 @@
 # d.purge_unique()
-Функция **d.purge_unique** удаляет уникального монстра.
+A função **d.purge_unique** remove уникального um monstro.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя уникального монстра.
+Tipo *string*. **Parâmetro obrigatório**. Nome do monstro único.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Для убийства уникального монстра используйте функцию [d.kill_unique](../d/d.kill_unique.md)().
+Для убийства уникального um monstro используйте функцию [d.kill_unique](../d/d.kill_unique.md)().
 
 Для очистки всего подземелья используйте функцию [d.purge](../d/d.purge.md)().
 
-Функция работает только в подземельях.
+A função funciona apenas em masmorras.

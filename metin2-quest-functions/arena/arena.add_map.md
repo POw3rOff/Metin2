@@ -1,21 +1,21 @@
 # arena.add_map()
-Функция **arena.add_map** добавляет на сервер арены, где смогут сражаться игроки.
+A função **arena.add_map** adiciona на сервер арены, onde смогут сражаться игроки.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации, где будет происходить поединок.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa, onde будет происходить поединок.
 
 ### x1
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X, куда будет телепортирован первый дуэлянт (без двух нулей на конце).
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X, куда будет телепортирован первый дуэлянт (sem os dois zeros no final).
 
 ### y1
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y, куда будет телепортирован первый дуэлянт (без двух нулей на конце).
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y, куда будет телепортирован первый дуэлянт (sem os dois zeros no final).
 
 ### x2
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X, куда будет телепортирован второй дуэлянт (без двух нулей на конце).
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X, куда будет телепортирован второй дуэлянт (sem os dois zeros no final).
 
 ### y2
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y, куда будет телепортирован второй дуэлянт (без двух нулей на конце).
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y, куда будет телепортирован второй дуэлянт (sem os dois zeros no final).
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.

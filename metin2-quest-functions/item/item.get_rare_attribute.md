@@ -1,19 +1,19 @@
 # item.get_rare_attribute()
-Функция **item.get_rare_attribute** сообщает содержимое ячейки добавленного 6-7 бонуса &laquo;выделенного&raquo; предмета.
+A função **item.get_rare_attribute** informa содержимое ячейки добавленного 6-7 бонуса &laquo;выделенного&raquo; предмета.
 
-## Параметры функции
+## Parâmetros da função
 ### apply_rare_index
-Тип *number*. **Обязательный параметр**. В таблице `player.item` есть поля `applytype0`, `applyvalue0`, `applytype1`, `applyvalue1`, ..., `applytype6` и `applyvalue6`, которые отвечают за добавленные на предмет бонусы. Поля `applytype5`, `applyvalue5`, `applytype6` и `applyvalue6` отвечают за 6-7 бонусы. В качестве этого параметра надо указать либо `0`, чтобы получить информацию о шестом бонусе (поля `applytype5` и `applyvalue5`), либо `1`, чтобы получить информацию о седьмом бонусе (поля `applytype6` и `applyvalue6`).
+Tipo *number*. **Parâmetro obrigatório**. В таблице `player.item` есть поля `applytype0`, `applyvalue0`, `applytype1`, `applyvalue1`, ..., `applytype6` и `applyvalue6`, которые отвечают за добавленные на предмет бонусы. Поля `applytype5`, `applyvalue5`, `applytype6` и `applyvalue6` отвечают за 6-7 бонусы. В качестве этого параметра надо указать либо `0`, чтобы получить информацию о шестом бонусе (поля `applytype5` и `applyvalue5`), либо `1`, чтобы получить информацию о седьмом бонусе (поля `applytype6` и `applyvalue6`).
 
-## Возвращаемые значения
+## Valores de retorno
 ### apply_rare_info
-Тип *mixed*. В случае, если предмет не был &laquo;выделен&raquo;, то ничего не возвращается, то бишь `nil`.
+Tipo *mixed*. В случае, se предмет не был &laquo;выделен&raquo;, então nada é retornado, ou seja `nil`.
 
-Если параметр не является числом или если параметр меньше `0` или больше `1`, то возвращается `0` <sup>number</sup>.
+Se параметр não for um número ou se параметр меньше `0` ou больше `1`, então é retornado `0` <sup>number</sup>.
 
-Если функция выполнилась без ошибок, то возвращается таблица, которая выглядит примерно так: `{applytype, applyvalue}`. `applytype` &mdash; это ID бонуса, а `applyvalue` &mdash; значение бонуса.
+Se функция выполнилась без ошибок, então é retornado таблица, которая выглядит примерно так: `{applytype, applyvalue}`. `applytype` &mdash; это ID do bónus, а `applyvalue` &mdash; значение бонуса.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

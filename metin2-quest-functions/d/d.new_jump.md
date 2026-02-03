@@ -1,18 +1,18 @@
 # d.new_jump()
 Функция **d.new_jump** создет подземелье и телепортирует туда игрока, вызвавшего функцию.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации, в которой будет создано подземелье.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa, onde a masmorra será criada.
 
 ### x
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X sem os dois zeros no final.
 
 ### y
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y sem os dois zeros no final.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Предположительно, на ядре 2089 эта функция будет работать некорректно, но данный diff должен исправить проблему:
 

@@ -1,9 +1,9 @@
 # guild.get_reserve_war_table()
-Функция **guild.get_reserve_war_table** сообщает список воюющих гильдий.
+A função **guild.get_reserve_war_table** informa список воюющих гильдий.
 
-## Возвращаемые значения
+## Valores de retorno
 ### war_list
-Тип *table*. Список воюющих гильдий. Таблица выглядит примерно так:
+Tipo *table*. Список воюющих гильдий. Таблица выглядит примерно так:
 
 ````lua
 {
@@ -18,7 +18,7 @@
 * `loser` <sup>number</sup> &mdash; ID проигрывающей гильдии;
 * `handicap` <sup>number</sup> &mdash; неизвестно, что это.
 
-Если нет войн, то возвращается пустая таблица, то бишь `{}`.
+Se нет войн, então é retornado пустая таблица, ou seja `{}`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

@@ -1,17 +1,17 @@
 # forked.issungzimapindex()
-Функция **forked.issungzimapindex** проверяет, является ли локация с определенным индексом ареной для битвы империй.
+A função **forked.issungzimapindex** verifica se является ли локация с определенным индексом ареной для битвы империй.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa.
 
-## Возвращаемые значения
+## Valores de retorno
 ### is_valid_war_map
-Тип *boolean*. Является ли локация с индексом [map_index](#map_index) одной из арен для битвы империй или нет.
+Tipo *boolean*. Является ли локация с индексом [map_index](#map_index) одной из арен для битвы империй ou нет.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Суть в том, что арены для битвы империй выбираются случайно. Функция [forked.isforkedmapindex](../forked/forked.isforkedmapindex.md)() проверяет, является ли локация с определенным индексом той самой ареной, что используется в данный момент, а эта функция проверяет, может ли быть эта локация одной из арен.
 
-В статье могут быть неточности.
+O artigo pode conter imprecisões.

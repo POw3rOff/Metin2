@@ -1,9 +1,9 @@
 # game.get_safebox_level()
 Значение данной функции неизвестно.
 
-## Возвращаемые значения
+## Valores de retorno
 ### safebox_level
-Тип *number*. Уровень склада.
+Tipo *number*. Уровень склада.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

@@ -1,11 +1,11 @@
 # item.get_vnum()
-Функция **item.get_vnum** сообщает vnum (ID из `player.item_proto`) &laquo;выделенного&raquo; предмета.
+A função **item.get_vnum** informa vnum (ID из `player.item_proto`) &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### item_vnum
-Тип *number*. ID предмета из `player.item_proto`. Если предмет не был выделен, то возвращается `0`.
+Tipo *number*. ID do item из `player.item_proto`. Se предмет не был выделен, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

@@ -1,15 +1,15 @@
 # d.getf()
-Функция **d.getf** возвращает значение флага подземелья.
+A função **d.getf** retorna значение флага подземелья.
 
-## Параметры функции
+## Parâmetros da função
 ### flag_name
-Тип *string*. **Обязательный параметр**. Название флага.
+Tipo *string*. **Parâmetro obrigatório**. Nome da flag.
 
-## Возвращаемые значения
+## Valores de retorno
 ### value
-Тип *number*. Значение флага. Если флаг не был задан ранее, а также если функция была вызвана вне подземелья, то возвращается `0`.
+Tipo *number*. Valor da flag. Se флаг não foi definido ранее, а также se функция была вызвана вне подземелья, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

@@ -1,11 +1,11 @@
 # get_server_timer_arg()
-Функция **get_server_timer_arg** сообщает аргумент, который хранит в себе серверный таймер.
+A função **get_server_timer_arg** informa аргумент, который хранит в себе серверный таймер.
 
-## Возвращаемые значения
+## Valores de retorno
 ### argument
-Тип *number*. Аргумент, который содержится в таймере. Если в серверном таймере не был задан аргумент или если функция была вызвана вне триггера [server_timer](../_triggers/server_timer.md), то возвращается `0`.
+Tipo *number*. Аргумент, который содержится в таймере. Se в серверном таймере não foi definido аргумент ou se функция была вызвана вне триггера [server_timer](../_triggers/server_timer.md), então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Функцию следует использовать внутри триггера [server_timer](../_triggers/server_timer.md).

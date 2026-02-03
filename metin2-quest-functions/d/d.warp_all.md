@@ -1,18 +1,18 @@
 # d.warp_all()
-Функция **d.warp_all** телепортирует всех игроков из подземелья по указанным координатам.
+A função **d.warp_all** teletransporta всех игроков из подземелья по указанным координатам.
 
-## Параметры функции
+## Parâmetros da função
 ### x
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X sem os dois zeros no final.
 
 ### y
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y sem os dois zeros no final.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 В этой статье могут быть неточности.
 
-Телепортируются даже те игроки, которые торгуют в момент вызова функции.
+Até os jogadores que estão a negociar são teletransportados в момент вызова функции.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

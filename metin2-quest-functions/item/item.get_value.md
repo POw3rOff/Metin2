@@ -1,15 +1,15 @@
 # item.get_value()
-Функция **item.get_value** сообщает значение определенного `value` (из `player.item_proto`) &laquo;выделенного&raquo; предмета.
+A função **item.get_value** informa значение определенного `value` (из `player.item_proto`) &laquo;выделенного&raquo; предмета.
 
-## Параметры функции
+## Parâmetros da função
 ### value_id
-Тип *number*. **Обязательный параметр**. ID поля `value` из `player.item_proto`. Там есть 6 полей: `value0`, `value1`, ..., `value5`. Необходимо в этом параметре указать число от `0` до `5`.
+Tipo *number*. **Parâmetro obrigatório**. ID поля `value` из `player.item_proto`. Там есть 6 полей: `value0`, `value1`, ..., `value5`. Необходимо в этом параметре указать число от `0` до `5`.
 
-## Возвращаемые значения
+## Valores de retorno
 ### value_value
-Тип *number*. То, что находится в указанном поле value в `player.item_proto`. Если предмет не был &laquo;выделен&raquo;, если параметр не является чилом или если параметр больше `5` или меньше `0`, то возвращается `0`.
+Tipo *number*. То, что находится в указанном поле value в `player.item_proto`. Se o item não tiver sido &laquo;selecionado&raquo;, se параметр не является чилом ou se параметр больше `5` ou меньше `0`, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

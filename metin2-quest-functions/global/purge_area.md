@@ -1,20 +1,20 @@
 # purge_area()
 Функция **purge_area** очищает область от метинов, монстров и NPC.
 
-## Параметры функции
+## Parâmetros da função
 ### x1
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X с двумя нулями на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X com os dois zeros no final.
 
 ### y1
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y с двумя нулями на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y com os dois zeros no final.
 
 ### x2
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X с двумя нулями на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X com os dois zeros no final.
 
 ### y2
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y с двумя нулями на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y com os dois zeros no final.
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.
 
-4 параметра формируют прямоугольную область: [x1](#x1) и [y1](#y1) &mdash; левый верхний угол, а [x2](#x2) и [y2](#y2) &mdash; правый нижний.
+4 parâmetros formam uma área retangular: [x1](#x1) и [y1](#y1) &mdash; canto superior esquerdo, а [x2](#x2) и [y2](#y2) &mdash; canto inferior direito.

@@ -1,20 +1,20 @@
 # __give_empire_priv()
-Функция **__give_empire_priv** устанавливает квоту всем членам определенной империи.
+A função **__give_empire_priv** define квоту всем членам определенной империи.
 
-## Параметры функции
+## Parâmetros da função
 ### empire_id
-Тип *number*. **Обязательный параметр**. ID империи. Если указать `0`, то квота будет дана всем империям.
+Tipo *number*. **Parâmetro obrigatório**. ID do império. Se указать `0`, então квота будет дана всем империям.
 
 ### priv_id
-Тип *number*. **Обязательный параметр**. ID квоты. `1` &mdash; дроп; `2` &mdash; янги; `3` &mdash; большие кучки янг; `4` &mdash; опыт.
+Tipo *number*. **Parâmetro obrigatório**. ID da quota. `1` &mdash; дроп; `2` &mdash; янги; `3` &mdash; большие кучки янг; `4` &mdash; опыт.
 
 ### priv_value
-Тип *number*. **Обязательный параметр**. Сколько процентов квоты будет установлено. Значения больше `1000`, вероятнее всего, будут уменьшены до `1000`.
+Tipo *number*. **Parâmetro obrigatório**. Qual a percentagem da quota que será definida. Valores superiores a `1000` serão provavelmente reduzidos para `1000`.
 
 ### priv_duration
-Тип *number*. **Обязательный параметр**. Длительность квоты в секундах. Значения, превышающие `604800` сек. (7 дней), вероятнее всего будут уменьшены до `604800` секунд.
+Tipo *number*. **Parâmetro obrigatório**. Длительность квоты em segundos. Valores superiores a `604800` seg. (7 dias), serão provavelmente reduzidos para `604800` секунд.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-После перезагрузки сервера квота пропадет.
+A quota desaparecerá após o reinício do servidor.

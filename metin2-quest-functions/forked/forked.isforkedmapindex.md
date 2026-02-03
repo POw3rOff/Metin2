@@ -1,13 +1,13 @@
 # forked.isforkedmapindex()
-Функция **forked.isforkedmapindex** сообщает, используется ли определенный индекс локации в качестве арены для битвы империй.
+Функция **forked.isforkedmapindex** informa, используется ли um determinado индекс локации в качестве арены для битвы империй.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa.
 
-## Возвращаемые значения
+## Valores de retorno
 ### is_war_map
-Тип *boolean*. Является ли локация действующей в данный момент ареной для битвы империй или нет.
+Tipo *boolean*. Является ли локация действующей в данный момент ареной для битвы империй ou нет.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

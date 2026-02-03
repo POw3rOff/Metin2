@@ -1,27 +1,27 @@
 # item.get_apply()
-Функция **item.get_apply** сообщает содержимое ячейки встроенного бонуса &laquo;выделенного&raquo; предмета.
+A função **item.get_apply** informa содержимое ячейки встроенного бонуса &laquo;выделенного&raquo; предмета.
 
-## Параметры функции
+## Parâmetros da função
 ### apply_index
-Тип *number*. **Обязательный параметр**. В `player.item_proto` есть поля `applytype0`, `applyvalue0`, `applytype1`, `applyvalue1`, `applytype2` и `applyvalue2`. В качестве этого параметра надо указать число, идущее после названия необходимых полей, которые надо получить. Допустим, если вы хотите получить информацию о первой паре полей (`applytype0` и `applyvalue0`), то в качестве параметра надо указать `0`.
+Tipo *number*. **Parâmetro obrigatório**. В `player.item_proto` есть поля `applytype0`, `applyvalue0`, `applytype1`, `applyvalue1`, `applytype2` и `applyvalue2`. В качестве этого параметра надо указать число, идущее после названия необходимых полей, которые надо получить. Допустим, se вы хотите получить информацию о первой паре полей (`applytype0` и `applyvalue0`), então в качестве параметра надо указать `0`.
 
-## Возвращаемые значения
+## Valores de retorno
 ### apply_data
-Тип *mixed*. В случае, если предмет не был &laquo;выделен&raquo;, то ничего не возвращается, то бишь `nil`.
+Tipo *mixed*. В случае, se предмет не был &laquo;выделен&raquo;, então nada é retornado, ou seja `nil`.
 
-Если параметр не является числом или если параметр меньше `0` или больше `2`, то возвращается `0` <sup>number</sup>.
+Se параметр não for um número ou se параметр меньше `0` ou больше `2`, então é retornado `0` <sup>number</sup>.
 
-Если функция выполнилась без ошибок, то возвращается таблица, которая выглядит примерно так:
+Se функция выполнилась без ошибок, então é retornado таблица, которая выглядит примерно так:
 
 ````lua
 {applytype, applyvalue}
 ````
 
-`applytype` &mdash; это ID бонуса, а `applyvalue` &mdash; значение бонуса.
+`applytype` &mdash; это ID do bónus, а `applyvalue` &mdash; значение бонуса.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Встроенный бонус &mdash; это тот, что задается через `player.item_proto`.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

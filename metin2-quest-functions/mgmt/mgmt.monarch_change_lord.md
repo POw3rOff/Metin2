@@ -1,12 +1,12 @@
 # mgmt.monarch_change_lord()
 Функция **mgmt.monarch_change_lord** меняет императора определенной империи.
 
-## Параметры функции
+## Parâmetros da função
 ### empire_id
-Тип *number*. **Обязательный параметр**. ID империи от `1` до `3`. `1` &mdash; Шиньзо (красная империя); `2` &mdash; Хунджо (желтая империя); `3` &mdash; Джинно (синяя империя).
+Tipo *number*. **Parâmetro obrigatório**. ID do império от `1` до `3`. `1` &mdash; Шиньзо (красная империя); `2` &mdash; Хунджо (желтая империя); `3` &mdash; Джинно (синяя империя).
 
 ### player_id
-Тип *number*. **Обязательный параметр**. ID игрока, который станет новым императором.
+Tipo *number*. **Parâmetro obrigatório**. ID игрока, который станет новым императором.
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.

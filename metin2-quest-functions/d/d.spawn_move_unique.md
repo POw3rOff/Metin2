@@ -1,5 +1,5 @@
 # d.spawn_move_unique()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

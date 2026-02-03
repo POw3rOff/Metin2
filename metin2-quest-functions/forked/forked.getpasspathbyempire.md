@@ -1,15 +1,15 @@
 # forked.getpasspathbyempire()
-Функция **forked.getpasspathbyempire** сообщает путь до директории, в которой должны находиться файлы локации.
+A função **forked.getpasspathbyempire** informa путь до директории, в ao qual должны находиться файлы локации.
 
-## Параметры функции
+## Parâmetros da função
 ### empire_id
-Тип *number*. **Обязательный параметр**. ID империи.
+Tipo *number*. **Parâmetro obrigatório**. ID do império.
 
-## Возвращаемые значения
+## Valores de retorno
 ### path
-Тип *string*. Путь до директории, в которой должна находиться локация. Путь выглядит примерно так: `{path}/map/{map_name}`, где `{path}` &mdash; относительный путь от ядра до папки map, а `{map_name}` &mdash; имя локации. Если параметр [empire_id](#empire_id) имеет неверный ID империи, то возвращается пустая строка.
+Tipo *string*. Путь до директории, в ao qual должна находиться локация. Путь выглядит примерно так: `{path}/map/{map_name}`, onde `{path}` &mdash; относительный путь от ядра до папки map, а `{map_name}` &mdash; имя локации. Se параметр [empire_id](#empire_id) имеет неверный ID do império, então é retornado uma string vazia.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Функция может быть полезна для отладки и поиска багов.

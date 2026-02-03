@@ -1,15 +1,15 @@
 # regen_in_map()
-Функция **regen_in_map** призывает монстров из regen-файла.
+A função **regen_in_map** invoca монстров из regen-файла.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa.
 
 ### path
-Тип *string*. **Обязательный параметр**. Путь до regen-файла. Можно указать как полный путь, так и относительный. Относительный путь должен указываться относительно директории, в которой лежит игровое ядро.
+Tipo *string*. **Parâmetro obrigatório**. Caminho para o ficheiro regen. Pode especificar o caminho completo ou relativo. O caminho relativo deve ser especificado em relação ao diretório, onde o núcleo do jogo está localizado.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Монстры будут призваны единожды независимо от того, что указано в настройках regen-файла.
 

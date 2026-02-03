@@ -1,15 +1,15 @@
 # game.drop_item()
-Функция **game.drop_item** создает возле игрока предмет.
+A função **game.drop_item** cria возле игрока предмет.
 
-## Параметры функции
+## Parâmetros da função
 ### item_vnum
-Тип *number*. **Обязательный параметр**. ID предмета.
+Tipo *number*. **Parâmetro obrigatório**. ID do item.
 
 ### count
-Тип *number*. Количество предметов. Если параметр не задан, то количество будет равно `1`.
+Tipo *number*. Количество предметов. Se параметр не задан, então количество будет равно `1`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Предмет создается без привязки по имени.
 

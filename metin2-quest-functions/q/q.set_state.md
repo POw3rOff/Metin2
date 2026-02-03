@@ -1,2 +1,2 @@
 # q.set_state()
-Данная функция является копией функции [set_state](/../global/set_state.md).
+Esta função é uma cópia da função [set_state](/../global/set_state.md).

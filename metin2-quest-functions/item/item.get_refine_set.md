@@ -1,11 +1,11 @@
 # item.get_refine_set()
-Функция **item.get_refine_set** сообщает `refine_set` &laquo;выделенного&raquo; предмета.
+A função **item.get_refine_set** informa `refine_set` &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### refine_set
-Тип *number*. Значение поля `refine_set` из `player.item_proto`. Если предмет не был &laquo;выделен&raquo;, то возвращается `0`.
+Tipo *number*. Значение поля `refine_set` из `player.item_proto`. Se o item não tiver sido &laquo;selecionado&raquo;, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

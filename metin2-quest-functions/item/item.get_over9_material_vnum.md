@@ -1,13 +1,13 @@
 # item.get_over9_material_vnum()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Параметры функции
+## Parâmetros da função
 ### item_vnum
-Тип *number*. **Обязательный параметр**. Значение данного параметра неизвестно.
+Tipo *number*. **Parâmetro obrigatório**. Значение данного параметра неизвестно.
 
-## Возвращаемые значения
+## Valores de retorno
 ### material_vnum
-Тип *number*. Значение данного возвращаемого значения неизвестно.
+Tipo *number*. O significado deste valor de retorno é desconhecido.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

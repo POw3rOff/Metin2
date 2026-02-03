@@ -1,15 +1,15 @@
 # d.unique_get_hp_perc()
-Функция **d.unique_get_hp_perc** возвращает количество процентов здоровья у уникального монстра.
+A função **d.unique_get_hp_perc** retorna количество процентов здоровья у уникального um monstro.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя уникального монстра.
+Tipo *string*. **Parâmetro obrigatório**. Nome do monstro único.
 
-## Возвращаемые значения
+## Valores de retorno
 ### hp_percentage
-Тип *number*. Количество процентов оставшегося здоровья у монстра. Если параметр [unique_name](#unique_name) не является строкой, если монстр с таким именем не найден или если функция вызвана вне подземелья, то возвращается `0`.
+Tipo *number*. Количество процентов оставшегося здоровья у um monstro. Se параметр [unique_name](#unique_name) не является строкой, se монстр с таким именем не найден ou se функция вызвана вне подземелья, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

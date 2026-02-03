@@ -1,18 +1,18 @@
 # d.jump_all()
 Функция **d.jump_all** перемещает всех участников подземелья на указанные координаты.
 
-## Параметры функции
+## Parâmetros da função
 ### x
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X sem os dois zeros no final.
 
 ### y
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y sem os dois zeros no final.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Телепортация происходит без загрузочного экрана.
 
-Телепортируются даже те игроки, которые торгуют.
+Até os jogadores que estão a negociar são teletransportados.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

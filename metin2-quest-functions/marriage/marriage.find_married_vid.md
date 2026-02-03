@@ -1,9 +1,9 @@
 # marriage.find_married_vid()
-Функция **marriage.find_married_vid** сообщает VID второго члена семьи.
+A função **marriage.find_married_vid** informa VID второго члена семьи.
 
-## Возвращаемые значения
+## Valores de retorno
 ### player_vid
-Тип *number*. VID супруга. Если игрок не состоит в браке или если функция была вызвана от имени сервера, то возвращается `0`.
+Tipo *number*. VID супруга. Se игрок не состоит в браке ou se функция была вызвана от имени сервера, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

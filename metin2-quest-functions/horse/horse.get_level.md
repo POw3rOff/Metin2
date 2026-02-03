@@ -1,9 +1,9 @@
 # horse.get_level()
-Функция **horse.get_level** сообщает уровень лошади игрока.
+A função **horse.get_level** informa уровень лошади игрока.
 
-## Возвращаемые значения
+## Valores de retorno
 ### horse_level
-Тип *number*. Уровень лошади.
+Tipo *number*. Уровень лошади.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

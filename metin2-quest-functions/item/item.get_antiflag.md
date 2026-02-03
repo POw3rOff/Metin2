@@ -1,13 +1,13 @@
 # item.get_antiflag()
-Функция **item.get_antiflag** сообщает `antiflag` &laquo;выделенного&raquo; предмета.
+A função **item.get_antiflag** informa `antiflag` &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### antiflag
-Тип *number*. `antiflag` предмета. Если предмет не был &laquo;выделен&raquo;, то возвращается `0`.
+Tipo *number*. `antiflag` предмета. Se o item não tiver sido &laquo;selecionado&raquo;, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-В отличие от функции [item.has_antiflag](../item/item.has_antiflag.md)(), которая проверяет наличие определенного флага, эта функция лишь возвращает его значение. То есть возвращается то число, что было указано в item_proto в поле antiflag. Подробнее об антифлагах читайте в статье о функции [item.has_antiflag](../item/item.has_antiflag.md)().
+В отличие от функции [item.has_antiflag](../item/item.has_antiflag.md)(), которая проверяет наличие определенного флага, эта функция лишь retorna его значение. То есть é retornado então число, что было указано в item_proto в поле antiflag. Подробнее об антифлагах читайте в статье о функции [item.has_antiflag](../item/item.has_antiflag.md)().
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

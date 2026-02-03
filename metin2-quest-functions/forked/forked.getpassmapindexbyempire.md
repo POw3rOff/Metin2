@@ -1,13 +1,13 @@
 # forked.getpassmapindexbyempire()
-Функция **forked.getpassmapindexbyempire** сообщает индекс локации, которая является &laquo;проходом&raquo; для определенной империи.
+A função **forked.getpassmapindexbyempire** informa индекс локации, которая является &laquo;проходом&raquo; для определенной империи.
 
-## Параметры функции
+## Parâmetros da função
 ### empire_id
-Тип *number*. **Обязательный параметр**. ID империи.
+Tipo *number*. **Parâmetro obrigatório**. ID do império.
 
-## Возвращаемые значения
+## Valores de retorno
 ### map_index
-Тип *number*. Индекс локации, которая является &laquo;проходом&raquo; для заданной в параметре [empire_id](#empire_id) империи. Возвращается `0`, если указан неверный ID империи.
+Tipo *number*. Índice do mapa, которая является &laquo;проходом&raquo; для заданной в параметре [empire_id](#empire_id) империи. Возвращается `0`, se указан неверный ID do império.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

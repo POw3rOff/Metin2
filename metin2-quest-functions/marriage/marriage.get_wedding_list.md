@@ -1,9 +1,9 @@
 # marriage.get_wedding_list()
-Функция **marriage.get_wedding_list** сообщает список свадеб, которые происходят в данный момент.
+A função **marriage.get_wedding_list** informa список свадеб, которые происходят в данный момент.
 
-## Возвращаемые значения
+## Valores de retorno
 ### wedding_list
-Тип *table*. Таблица, содержащая список свадеб. Таблица выглядит примерно так:
+Tipo *table*. Таблица, содержащая список свадеб. Таблица выглядит примерно так:
 
 ````lua
 {
@@ -18,5 +18,5 @@
 * `player1_name` <sup>string</sup> &mdash; имя первого игрока; 
 * `player2_name` <sup>string</sup> &mdash; имя второго игрока.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

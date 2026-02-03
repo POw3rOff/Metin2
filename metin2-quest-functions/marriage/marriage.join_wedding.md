@@ -1,14 +1,14 @@
 # marriage.join_wedding()
-Функция **marriage.join_wedding** телепортирует игрока на свадебный остров в роли наблюдателя на чужую свадьбу.
+A função **marriage.join_wedding** teletransporta игрока на свадебный остров в роли наблюдателя на чужую свадьбу.
 
-## Параметры функции
+## Parâmetros da função
 ### player1_id
-Тип *number*. **Обязательный параметр**. ID первого участника свадьбы.
+Tipo *number*. **Parâmetro obrigatório**. ID первого участника свадьбы.
 
 ### player2_id
-Тип *number*. **Обязательный параметр**. ID второго участника свадьбы.
+Tipo *number*. **Parâmetro obrigatório**. ID второго участника свадьбы.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Телепортация возможна даже во время торга.
+O teletransporte é possível mesmo durante a negociação.

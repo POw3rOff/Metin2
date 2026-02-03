@@ -1,17 +1,17 @@
 # affect.add_collect_point()
 Функция **affect.add_collect_point** дает персонажу пассивные бонусы.
 
-## Параметры функции
+## Parâmetros da função
 ### bonus
-Тип *number*. **Обязательный параметр**. ID бонуса, который должен быть добавлен.
+Tipo *number*. **Parâmetro obrigatório**. ID do bónus, который должен быть добавлен.
 
 ### value
-Тип *number*. **Обязательный параметр**. Значение бонуса. Например, надо указать `5000`, если вы хотите дать игроку 5000 ХП.
+Tipo *number*. **Parâmetro obrigatório**. Valor do bónus. Por exemplo, deve especificar `5000`, se quiser dar ao jogador 5000 de Vida.
 
 ### duration
-Тип *number*. **Обязательный параметр**. Длительность бонуса в секундах.
+Tipo *number*. **Parâmetro obrigatório**. Duração do bónus em segundos.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Неизвестно, чем эта функция отличается от [affect.add](../affect/affect.add.md)() и [affect.add_collect](../affect/affect.add_collect.md)().

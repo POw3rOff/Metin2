@@ -1,18 +1,18 @@
 # d.spawn_wooden_door()
-Функция **d.spawn_wooden_door** призывает деревянную дверь с уникальным именем.
+A função **d.spawn_wooden_door** invoca деревянную дверь с уникальным именем.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя, которое позволит идентифицировать дверь как уникального монстра.
+Tipo *string*. **Parâmetro obrigatório**. Um nome que permitirá identificar a porta como um monstro único.
 
-### Неизвестный параметр
-Тип *string*. **Обязательный параметр**. Назначение параметра неизвестно.
+### Parâmetro Desconhecido
+Tipo *string*. **Parâmetro obrigatório**. O objetivo do parâmetro é desconhecido.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Призванная дверь будет иметь ID `13000`.
 
-Призванная дверь будет иметь 10000 ХП и 300 единиц защиты (ID бонуса `83`).
+Призванная дверь будет иметь 10000 ХП и 300 единиц защиты (ID do bónus `83`).
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

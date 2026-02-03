@@ -1,11 +1,11 @@
 # kill_all_in_map()
 Функция **kill_all_in_map** убивает всех монстров и NPC в определенной локации.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Игроки и питомцы не умрут.

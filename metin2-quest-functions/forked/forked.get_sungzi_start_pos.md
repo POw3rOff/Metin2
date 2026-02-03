@@ -1,14 +1,14 @@
 # forked.get_sungzi_start_pos()
-Функция **forked.get_sungzi_start_pos** сообщает координаты арены битвы империй, куда следует телепортировать игрока.
+A função **forked.get_sungzi_start_pos** informa координаты арены битвы империй, куда следует телепортировать игрока.
 
-## Возвращаемые значения
+## Valores de retorno
 ### x
-Тип *number*. Серверная координата по оси X с двумя нулями на конце (возможны неточности).
+Tipo *number*. Coordenada do servidor no eixo X com os dois zeros no final (возможны неточности).
 
 ### y
-Тип *number*. Серверная координата по оси Y с двумя нулями на конце (возможны неточности).
+Tipo *number*. Coordenada do servidor no eixo Y com os dois zeros no final (возможны неточности).
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Координаты для каждой империи разные.
+As coordenadas para cada império são diferentes.

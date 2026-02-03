@@ -1,12 +1,12 @@
 # horse.is_dead()
-Функция **horse.is_dead** сообщает, мертва ли лошадь.
+Функция **horse.is_dead** informa, мертва ли лошадь.
 
-## Возвращаемые значения
+## Valores de retorno
 ### is_dead
-Тип *boolean*. Мертва ли лошадь или нет. `true`, если мертва, иначе `false`.
+Tipo *boolean*. Мертва ли лошадь ou нет. `true`, se мертва, иначе `false`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Функция абсолютно идентична следующему коду:
 

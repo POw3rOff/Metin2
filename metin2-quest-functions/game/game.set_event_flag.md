@@ -1,12 +1,12 @@
 # game.set_event_flag()
-Функция **game.set_event_flag** изменяет значение эвентового (серверного) флага.
+A função **game.set_event_flag** altera значение эвентового (серверного) флага.
 
-## Параметры функции
+## Parâmetros da função
 ### flag_name
-Тип *string*. **Обязательный параметр**. Имя флага.
+Tipo *string*. **Parâmetro obrigatório**. Имя флага.
 
 ### value
-Тип *number*. **Обязательный параметр**. Значение, которое будет установлено этому флагу.
+Tipo *number*. **Parâmetro obrigatório**. Значение, которое будет установлено этому флагу.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

@@ -1,5 +1,5 @@
 # setskin()
 Функция **setskin** является копией функции [set_skin](../global/set_skin.md)().
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

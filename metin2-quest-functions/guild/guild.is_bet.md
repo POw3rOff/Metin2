@@ -1,13 +1,13 @@
 # guild.is_bet()
-Функция **guild.is_bet** сообщает, делал ли игрок ставку на определенную войну гильдий или нет.
+Функция **guild.is_bet** informa, делал ли игрок ставку на определенную войну гильдий ou нет.
 
-## Параметры функции
+## Parâmetros da função
 ### war_id
-Тип *number*. **Обязательный параметр**. ID войны гильдий.
+Tipo *number*. **Parâmetro obrigatório**. ID войны гильдий.
 
-## Возвращаемые значения
+## Valores de retorno
 ### is_bet
-Тип *boolean*. Делал ли игрок ставку на эту войну или нет. `true`, если делал ставку или если параметр [war_id](#war_id) не является числом или не был задан; `false`, если не делал ставку.
+Tipo *boolean*. Делал ли игрок ставку на эту войну ou нет. `true`, se делал ставку ou se параметр [war_id](#war_id) não for um número ou não foi definido; `false`, se не делал ставку.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

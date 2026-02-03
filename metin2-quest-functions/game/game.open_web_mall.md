@@ -1,8 +1,8 @@
 # game.open_web_mall()
 Функция **game.open_web_mall** открывает итемшоп.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Открывается ссылка `http://{mall_url}/ishop?pid={player_id}&c={country_code}&sid={server_id}&sas={hash}`.
 

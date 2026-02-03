@@ -1,13 +1,13 @@
 # guild.get_name()
-Функция **guild.get_name** сообщает имя гильдии, которой принадлежит определенный ID.
+A função **guild.get_name** informa o nome da guilda, à qual pertence um ID específico.
 
-## Параметры функции
+## Parâmetros da função
 ### guild_id
-Тип *number*. **Обязательный параметр**. ID гильдии.
+Tipo *number*. **Parâmetro obrigatório**. ID da guilda.
 
-## Возвращаемые значения
+## Valores de retorno
 ### guild_name
-Тип *string*. Имя гильдии. Если ID гильдии не был задан, не является числом или если гильдии с заданным ID не существует, то возвращается пустая строка, то бишь `""`.
+Tipo *string*. Nome da guilda. Se ID da guilda não foi definido, não for um número ou se a guilda com o ID especificado não existir, então é retornado uma string vazia, ou seja `""`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

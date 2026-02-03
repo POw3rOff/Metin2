@@ -1,13 +1,13 @@
 # item.get_addon_type()
-Функция **item.get_addon_type** сообщает `addon_type` &laquo;выделенного&raquo; предмета.
+A função **item.get_addon_type** informa `addon_type` &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### addon_type
-Тип *mixed*. Если предмет не был &laquo;выделен&raquo;, то ничего не возвращается, то бишь `nil`.
+Tipo *mixed*. Se o item não tiver sido &laquo;selecionado&raquo;, então nada é retornado, ou seja `nil`.
 
-Если функция выполнилась без ошибок, то возвращается `addon_type` <sup>number</sup> предмета (значение из `player.item_proto`).
+Se функция выполнилась без ошибок, então é retornado `addon_type` <sup>number</sup> предмета (значение из `player.item_proto`).
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

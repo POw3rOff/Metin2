@@ -1,11 +1,11 @@
 # item.get_cell()
-Функция **item.get_cell** сообщает ID ячейки, в которой лежит &laquo;выделенный&raquo; предмет.
+A função **item.get_cell** informa ID ячейки, в ao qual лежит &laquo;выделенный&raquo; предмет.
 
-## Возвращаемые значения
+## Valores de retorno
 ### cell_id
-Тип *number*. ID ячейки. Если предмет не &laquo;выделен&raquo;, то возвращается `0`.
+Tipo *number*. ID ячейки. Se предмет не &laquo;выделен&raquo;, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

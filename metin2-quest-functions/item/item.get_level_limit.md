@@ -1,13 +1,13 @@
 # item.get_level_limit()
-Функция **item.get_level_limit** сообщает минимальный уровень, необходимый для использования &laquo;выделенного&raquo; предмета.
+A função **item.get_level_limit** informa минимальный уровень, необходимый для использования &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### level_limit
-Тип *mixed*. Если предмет не был &laquo;выделен&raquo; или если не является оружием (`type` 1) или броней (`type` 2), то ничего не возвращается, то бишь `nil`.
+Tipo *mixed*. Se o item não tiver sido &laquo;selecionado&raquo; ou se не является оружием (`type` 1) ou броней (`type` 2), então nada é retornado, ou seja `nil`.
 
 Возвращается минимальный уровень <sup>number</sup>, необходимый для использования предмета. 
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

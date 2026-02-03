@@ -1,14 +1,14 @@
 # set_quest_state()
 Функция **set_quest_state** позволяет поменять стадию у определенного квеста.
 
-## Параметры функции
+## Parâmetros da função
 ### quest_name
-Тип *string*. **Обязательный параметр**. Название квеста. Нужно указать не название квестового файла, а то, как вы назвали квест в конструкции `quest ... begin`.
+Tipo *string*. **Parâmetro obrigatório**. Nome da missão. Não deve especificar o nome do ficheiro da missão, mas sim como nomeou a missão na construção `quest ... begin`.
 
 ### state
-Тип *string*. **Обязательный параметр**. Название стадии, которая будет установлена этому квесту. В отличие от функции [set_state](../global/set_state.md)(), в этой функции этот параметр указывается с кавычками.
+Tipo *string*. **Parâmetro obrigatório**. Название стадии, которая будет установлена этому квесту. В отличие от функции [set_state](../global/set_state.md)(), в этой функции этот параметр указывается с кавычками.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Стадия должна присутствовать в квесте, иначе переход в стадию не будет совершен.
+A fase deve estar presente na missão, caso contrário, a transição para a fase não será realizada.

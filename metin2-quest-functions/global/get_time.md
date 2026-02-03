@@ -1,9 +1,9 @@
 # get_time()
-Функция **get_time** сообщает текущую метку времени Unix.
+A função **get_time** informa текущую метку времени Unix.
 
-## Возвращаемые значения
+## Valores de retorno
 ### unix_timestamp
-Тип *number*. Количество секунд с начала эпохи Unix.
+Tipo *number*. Quantidade de segundos с начала эпохи Unix.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

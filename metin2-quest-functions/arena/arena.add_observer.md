@@ -1,17 +1,17 @@
 # arena.add_observer()
-Функция **arena.add_observer** телепортирует игрока в роли наблюдателя на арену.
+A função **arena.add_observer** teletransporta игрока в роли наблюдателя на арену.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации, где происходит поединок.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa, onde происходит поединок.
 
 ### x
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X, куда будет телепортирован наблюдатель (без двух нулей на конце).
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X, куда будет телепортирован наблюдатель (sem os dois zeros no final).
 
 ### y
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y, куда будет телепортирован наблюдатель (без двух нулей на конце).
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y, куда будет телепортирован наблюдатель (sem os dois zeros no final).
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Получить индекс и координаты, которые можно будет использовать в параметрах этой функции, можно через функцию [arena.get_duel_list](../arena/arena.get_duel_list.md)(). 

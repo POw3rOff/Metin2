@@ -1,20 +1,20 @@
 # d.spawn_name_mob()
-Функция **d.spawn_name_mob** призывает монстра с измененным именем.
+A função **d.spawn_name_mob** invoca um monstro с измененным именем.
 
-## Параметры функции
+## Parâmetros da função
 ### mob_vnum
-Тип *number*. **Обязательный параметр**. ID монстра.
+Tipo *number*. **Parâmetro obrigatório**. ID do monstro.
 
 ### x
-Тип *number*. **Обязательный параметр**. Локальная координата по оси X без двух нулей на конце, куда будет призван монстр.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada local no eixo X sem os dois zeros no final, para onde o monstro será invocado.
 
 ### y
-Тип *number*. **Обязательный параметр**. Локальная координата по оси Y без двух нулей на конце, куда будет призван монстр.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada local no eixo Y sem os dois zeros no final, para onde o monstro será invocado.
 
 ### name
-Тип *string*. **Обязательный параметр**. Уникальное имя монстра, которое в последствии можно будет использовать в функциях, взаимодействующих с уникальными монстрами.
+Tipo *string*. **Parâmetro obrigatório**. Уникальное имя um monstro, которое в последствии можно будет использовать в функциях, взаимодействующих с уникальными um monstroми.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

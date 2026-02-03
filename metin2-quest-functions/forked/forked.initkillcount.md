@@ -1,7 +1,7 @@
 # forked.initkillcount()
-Функция **forked.initkillcount** обнуляет количество убийств империи, в которой состоит игрок, вызвавший функцию.
+Функция **forked.initkillcount** обнуляет количество убийств империи, в ao qual состоит игрок, que chamou a função.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Данная функция работает только во время битвы империй (см. [forked](../forked)).
+Esta função funciona apenas durante a batalha dos impérios (ver [forked](../forked)).

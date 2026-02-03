@@ -1,23 +1,23 @@
 # item.set_rare_attribute()
-Функция **item.set_rare_attribute** добавляет определенный 6-7 бонус в &laquo;выделенный&raquo; предмет.
+A função **item.set_rare_attribute** adiciona um determinado 6-7 бонус в &laquo;выделенный&raquo; предмет.
 
-## Параметры функции
+## Parâmetros da função
 ### attr_rare_index
-Тип *number*. **Обязательный параметр**. ID ячейки для бонуса от 0 до 1.
+Tipo *number*. **Parâmetro obrigatório**. ID ячейки для бонуса от 0 до 1.
 
 ### attr_rare_type
-Тип *number*. **Обязательный параметр**. ID бонуса.
+Tipo *number*. **Parâmetro obrigatório**. ID do bónus.
 
 ### attr_rare_value
-Тип *number*. **Обязательный параметр**. Значение бонуса. Например, `2000`, чтобы установить 2000 ХП (ID 1).
+Tipo *number*. **Parâmetro obrigatório**. Valor do bónus. Por exemplo, `2000` para definir 2000 de Vida (ID 1).
 
-## Возвращаемые значения
+## Valores de retorno
 ### status
-Тип *mixed*. Если предмет не был &laquo;выделен&raquo;, то ничего не возвращается, т.е. `nil`.
+Tipo *mixed*. Se o item não tiver sido &laquo;selecionado&raquo;, então nada é retornado, т.е. `nil`.
 
-Если бонус был успешно добавлен, то возвращается `true` <sup>boolean</sup>. Если была попытка добавить бонус в костюм, если один из параметров не является числом, если первый параметр меньше `0` или больше `1`, если второй параметр содержит в себе ID несуществующего бонуса, если на предмет пытаются добавить уже имеющийся на нем добавленный бонус, или если третий параметр больше `32767` или меньше `1`, то возвращается `false`.
+Se бонус был успешно добавлен, então é retornado `true` <sup>boolean</sup>. Se была попытка добавить бонус в костюм, se один из параметров não for um número, se первый параметр меньше `0` ou больше `1`, se второй параметр содержит в себе ID несуществующего бонуса, se на предмет пытаются добавить уже имеющийся на нем добавленный бонус, ou se третий параметр больше `32767` ou меньше `1`, então é retornado `false`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).
