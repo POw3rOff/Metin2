@@ -1,16 +1,16 @@
 # forked.get_pass_start_pos()
-Функция **forked.get_pass_start_pos** сообщает координаты &laquo;прохода&raquo;, куда следует телепортировать игрока.
+A função **forked.get_pass_start_pos** informa координаты &laquo;прохода&raquo;, куда следует телепортировать игрока.
 
-## Возвращаемые значения
+## Valores de retorno
 ### x
-Тип *number*. Серверная координата по оси X с двумя нулями на конце (возможны неточности).
+Tipo *number*. Coordenada do servidor no eixo X com os dois zeros no final (возможны неточности).
 
 ### y
-Тип *number*. Серверная координата по оси Y с двумя нулями на конце (возможны неточности).
+Tipo *number*. Coordenada do servidor no eixo Y com os dois zeros no final (возможны неточности).
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-&laquo;Проход&raquo; &mdash; это термин, определящий локацию с монстрами, которую должна зачистить империя прежде, чем они отправятся на арену.
+&laquo;Проход&raquo; &mdash; это термин, определящий локацию с um monstroми, которую должна зачистить империя прежде, чем они отправятся на арену.
 
-Координаты для каждой империи разные.
+As coordenadas para cada império são diferentes.

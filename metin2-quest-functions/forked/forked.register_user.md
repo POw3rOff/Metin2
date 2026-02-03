@@ -1,5 +1,5 @@
 # forked.register_user()
 Функция **forked.register_user** регистрирует пользователя, вызвавшего функцию, в битве империй.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

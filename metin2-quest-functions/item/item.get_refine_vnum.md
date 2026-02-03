@@ -1,11 +1,11 @@
 # item.get_refine_vnum()
-Функция **item.get_refine_vnum** сообщает vnum предмета, который будет следующим, если улучшить &laquo;выделенный&raquo; предмет.
+A função **item.get_refine_vnum** informa vnum предмета, который будет следующим, se улучшить &laquo;выделенный&raquo; предмет.
 
-## Возвращаемые значения
+## Valores de retorno
 ### item_vnum
-Тип *number*. vnum следующего предмета из `player.item_proto` (поле `refined_vnu`m). Если предмет не был выделен или если он не может быть улучшен, то возвращается `0`.
+Tipo *number*. vnum следующего предмета из `player.item_proto` (поле `refined_vnu`m). Se предмет не был выделен ou se он не может быть улучшен, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

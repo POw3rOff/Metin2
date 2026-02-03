@@ -1,27 +1,27 @@
 # item.set_value()
-Функция **item.set_value** устанавливает бонусы для вещи.
+A função **item.set_value** define бонусы для вещи.
 
-## Параметры функции
+## Parâmetros da função
 ### attr_index
-Тип *number*. **Обязательный параметр**. ID ячейки для бонуса от 0 до 6.
+Tipo *number*. **Parâmetro obrigatório**. ID ячейки для бонуса от 0 до 6.
 
 ### attr_type
-Тип *number*. **Обязательный параметр**. ID бонуса.
+Tipo *number*. **Parâmetro obrigatório**. ID do bónus.
 
 ### attr_value
-Тип *number*. **Обязательный параметр**. Значение бонуса. Например, `2000`, чтобы установить 2000 ХП (ID 1).
+Tipo *number*. **Parâmetro obrigatório**. Valor do bónus. Por exemplo, `2000` para definir 2000 de Vida (ID 1).
 
-## Возвращаемые значения
+## Valores de retorno
 ### status
-Тип *mixed*. Результат выполнения функции. В случае успешного выполнения функции ничего не возвращается, то бишь `nil`. 
+Tipo *mixed*. Результат выполнения функции. В случае успешного выполнения функции ничего не é retornado, ou seja `nil`.
 
-Если предмет не был &laquo;выделен&raquo; или если один из трех параметров не является числом, то возвращается `0` <sup>number</sup>. 
+Se o item não tiver sido &laquo;selecionado&raquo; ou se один из трех параметров não for um número, então é retornado `0` <sup>number</sup>.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Не следует связывать эту функцию с [item.get_value](../item/item.get_value.md)(). Несмотря на то, что было бы логично, если бы они были похожи, они работают с совершенно разными данными.
+Не следует связывать эту функцию с [item.get_value](../item/item.get_value.md)(). Несмотря на então, что было бы логично, se бы они были похожи, они работают с совершенно разными данными.
 
 Использовать эту функцию не рекомендуется. Лучше использовать [item.set_attribute](../item/item.set_attribute.md)().
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

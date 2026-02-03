@@ -1,13 +1,13 @@
 # building.has_land()
-Функция **building.has_land** сообщает, имеет ли гильдия землю или нет.
+Функция **building.has_land** informa, имеет ли гильдия землю ou нет.
 
-## Параметры функции
+## Parâmetros da função
 ### guild_id
-Тип *number*. **Обязательный параметр**. ID гильдии.
+Tipo *number*. **Parâmetro obrigatório**. ID da guilda.
 
-## Возвращаемые значения
+## Valores de retorno
 ### has_land
-Тип *boolean*. Значение будет равно `true`, если у гильдии есть земля, и `false`, если земли нет. Также `true` возвращается в случае, если параметр [guild_id](#guild_id) не является числом (возможно, это баг).
+Tipo *boolean*. Значение будет равно `true`, se у гильдии есть земля, и `false`, se земли нет. Также `true` é retornado в случае, se параметр [guild_id](#guild_id) não for um número (возможно, это баг).
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

@@ -1,15 +1,15 @@
 # item.add_attribute()
-Функция **item.add_attribute** добавляет случайный бонус в &laquo;выделенный&raquo; предмет.
+A função **item.add_attribute** adiciona случайный бонус в &laquo;выделенный&raquo; предмет.
 
-## Возвращаемые значения
+## Valores de retorno
 ### status
-Тип *mixed*. Если предмет не был &laquo;выделен&raquo;, то ничего не возвращается, то бишь `nil`.
+Tipo *mixed*. Se o item não tiver sido &laquo;selecionado&raquo;, então nada é retornado, ou seja `nil`.
 
-`true` <sup>boolean</sup>, если бонус был успешно добавлен; `false` <sup>boolean</sup>, если была совершена попытка добавить бонус в костюм или добавить больше чем 5 бонусов.
+`true` <sup>boolean</sup>, se бонус был успешно добавлен; `false` <sup>boolean</sup>, se была совершена попытка добавить бонус в костюм ou добавить больше чем 5 бонусов.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Бонусы вешаются аналогично предмету, вешающему бонусы. То есть значения берутся из таблицы `player.item_attr`.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

@@ -1,13 +1,13 @@
 # d.find()
-Функция **d.find** проверяет, существует ли подземелье с заданным уникальным ID или нет.
+A função **d.find** verifica se существует ли подземелье с заданным уникальным ID ou нет.
 
-## Параметры функции
+## Parâmetros da função
 ### dungeon_id
-Тип *number*. **Обязательный параметр**. Уникальный ID подземелья.
+Tipo *number*. **Parâmetro obrigatório**. ID único da masmorra.
 
-## Возвращаемые значения
+## Valores de retorno
 ### dungeon_exists
-Тип *boolean*. Существует ли подземелье с таким ID или нет. `true`, если существует; `false`, если не существует или если не был задан параметр [dungeon_id](#dungeon_id).
+Tipo *boolean*. Se existe uma masmorra com este ID ou não. `true`, se existir; `false`, se não existir ou se o parâmetro não foi definido [dungeon_id](#dungeon_id).
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

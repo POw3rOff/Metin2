@@ -1,15 +1,15 @@
 # d.select()
 Функция **d.select** выделяет подземелье, что позволяет исполнять в нём функции от имени сервера и от имени игроков, которые в этом подземелье не находятся.
 
-## Параметры функции
+## Parâmetros da função
 ### dungeon_id
-Тип *number*. **Обязательный параметр**. Уникальный ID подземелья. Если вызвать эту функцию, не задавая этот параметр, то выделение с подземелья будет снято.
+Tipo *number*. **Parâmetro obrigatório**. ID único da masmorra. Se вызвать эту функцию, не задавая этот параметр, então выделение с подземелья будет снято.
 
-## Возвращаемые значения
+## Valores de retorno
 ### dungeon_exists
-Тип *boolean*. Существует ли подземелье с таким ID или нет. `true`, если существует; `false`, если не существует или если не был задан параметр [dungeon_id](#dungeon_id).
+Tipo *boolean*. Se existe uma masmorra com este ID ou não. `true`, se existir; `false`, se não existir ou se o parâmetro não foi definido [dungeon_id](#dungeon_id).
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Для проверки, сущесвует ли подземелье, используйте функцию [d.find](#d.find)().

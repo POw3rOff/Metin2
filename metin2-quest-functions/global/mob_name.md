@@ -1,13 +1,13 @@
 # mob_name()
-Функция **mob_name** сообщает имя монстра по его ID.
+A função **mob_name** informa имя um monstro по его ID.
 
-## Параметры функции
+## Parâmetros da função
 ### mob_vnum
-Тип *number*. **Обязательный параметр**. ID монстра.
+Tipo *number*. **Parâmetro obrigatório**. ID do monstro.
 
-## Возвращаемые значения
+## Valores de retorno
 ### mob_name
-Тип *string*. Имя монстра. Если параметр [mob_vnum](#mob_vnum) не является строкой или если монстр с заданным ID не был найден, то возвращается пустая строка.
+Tipo *string*. Имя um monstro. Se параметр [mob_vnum](#mob_vnum) не является строкой ou se монстр с заданным ID не был найден, então é retornado uma string vazia.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

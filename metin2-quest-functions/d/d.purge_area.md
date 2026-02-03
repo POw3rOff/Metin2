@@ -1,26 +1,26 @@
 # d.purge_area()
-Функция **d.purge_area** удаляет всех монстров и NPC из заданной прямоугольной области.
+A função **d.purge_area** remove всех монстров и NPC из заданной прямоугольной области.
 
-## Параметры функции
+## Parâmetros da função
 ### x1
-Тип *number*. **Обязательный параметр**. Серверная координата без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor sem os dois zeros no final.
 
 ### y1
-Тип *number*. **Обязательный параметр**. Серверная координата без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor sem os dois zeros no final.
 
 ### x2
-Тип *number*. **Обязательный параметр**. Серверная координата без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor sem os dois zeros no final.
 
 ### y2
-Тип *number*. **Обязательный параметр**. Серверная координата без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor sem os dois zeros no final.
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.
 
-4 параметра формируют прямоугольную область: [x1](#x1) и [y1](#y1) &mdash; левый верхний угол, а [x2](#x2) и [y2](#y2) &mdash; правый нижний.
+4 parâmetros formam uma área retangular: [x1](#x1) и [y1](#y1) &mdash; canto superior esquerdo, а [x2](#x2) и [y2](#y2) &mdash; canto inferior direito.
 
 Возможно, что питомцы не удаляются.
 
 Существует аналогичная функция, работающая вне подземелья &mdash; [purge_area](../global/purge_area.md)().
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

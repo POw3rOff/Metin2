@@ -1,11 +1,11 @@
 # item.get_name()
-Функция **item.get_name** сообщает имя &laquo;выделенного&raquo; предмета.
+A função **item.get_name** informa имя &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### item_name
-Тип *string*. Имя предмета. Если предмет не был &laquo;выделен&raquo;, то возвращается пустая строка, то бишь `""`.
+Tipo *string*. Nome do item. Se o item não tiver sido &laquo;selecionado&raquo;, então é retornado uma string vazia, ou seja `""`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

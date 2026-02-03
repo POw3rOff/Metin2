@@ -1,23 +1,23 @@
 # forked.warp_all_in_map()
-Функция **forked.warp_all_in_map** телепортирует всех игроков из одной локации в другую.
+A função **forked.warp_all_in_map** teletransporta всех игроков из одной локации в другую.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index_from
-Тип *number*. **Обязательный параметр**. Индекс локации, из которой нужно телепортировать всех игроков.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa, из ao qual нужно телепортировать всех игроков.
 
 ### map_index_to
-Тип *number*. **Обязательный параметр**. Индекс локации, в которую нужно телепортировать.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa, в которую нужно телепортировать.
 
 ### x
-Тип *number*. **Обязательный параметр**. Локальная координата по оси X без двух нулей на конце, куда следует телепортировать всех игроков с локации.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada local no eixo X sem os dois zeros no final, куда следует телепортировать всех игроков с локации.
 
 ### y
-Тип *number*. **Обязательный параметр**. Локальная координата по оси Y без двух нулей на конце, куда следует телепортировать всех игроков с локации.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada local no eixo Y sem os dois zeros no final, куда следует телепортировать всех игроков с локации.
 
 ### time
-Тип *number*. **Обязательный параметр**. Количество секунд, по истечении которых игроки будут телепортированы.
+Tipo *number*. **Parâmetro obrigatório**. Quantidade de segundos, по истечении которых игроки будут телепортированы.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Игроки будут телепортированы не точно на заданные координаты, а с разбросом в 5 координат.

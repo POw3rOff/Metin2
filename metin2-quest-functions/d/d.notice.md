@@ -1,11 +1,11 @@
 # d.notice()
-Функция **d.notice** отсылает уведомление в подземелье, которое увидят все игроки.
+Функция **d.notice** отсылает уведомление na masmorra, которое увидят все игроки.
 
-## Параметры функции
+## Parâmetros da função
 ### message
-Тип *string*. **Обязательный параметр**. Текст сообщения.
+Tipo *string*. **Parâmetro obrigatório**. Текст сообщения.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

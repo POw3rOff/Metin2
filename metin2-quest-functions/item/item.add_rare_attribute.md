@@ -1,15 +1,15 @@
 # item.add_rare_attribute()
-Функция **item.add_rare_attribute** добавляет случайный 6-7 бонус в &laquo;выделенный&raquo; предмет.
+A função **item.add_rare_attribute** adiciona случайный 6-7 бонус в &laquo;выделенный&raquo; предмет.
 
-## Возвращаемые значения
+## Valores de retorno
 ### status
-Тип *mixed*. Если предмет не был &laquo;выделен&raquo;, то ничего не возвращается, то бишь `nil`.
+Tipo *mixed*. Se o item não tiver sido &laquo;selecionado&raquo;, então nada é retornado, ou seja `nil`.
 
-Если была совершена попытка добавить бонус в костюм или если в предмете более два или более 6-7 бонусов, то возвращается `false` <sup>boolean</sup>; в случае успешного добавления бонуса возвращается `true` <sup>boolean</sup>.
+Se была совершена попытка добавить бонус в костюм ou se в предмете более два ou более 6-7 бонусов, então é retornado `false` <sup>boolean</sup>; в случае успешного добавления бонуса é retornado `true` <sup>boolean</sup>.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Бонусы вешаются аналогично предмету, вешающему бонусы. То есть значения берутся из таблицы `player.item_attr_rare`.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

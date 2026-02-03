@@ -1,18 +1,18 @@
 # d.all_near_to()
-Функция **d.all_near_to** проверяет, находятся ли все участники подземелья возле указанных координат.
+A função **d.all_near_to** verifica se находятся ли все участники подземелья возле указанных координат.
 
-## Параметры функции
+## Parâmetros da função
 ### x
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X sem os dois zeros no final.
 
 ### y
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y sem os dois zeros no final.
 
-## Возвращаемые значения
+## Valores de retorno
 ### are_nearly
-Тип *boolean*. Находятся ли все игроки возле указанных координат. `true`, если находятся; `false`, если не находятся или если функция была вызвана вне подземелья.
+Tipo *boolean*. Находятся ли все игроки возле указанных координат. `true`, se находятся; `false`, se не находятся ou se функция была вызвана вне подземелья.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Координаты всех игроков должны быть ([x](#x) &plusmn; 30, [y](#y) &plusmn; 30).

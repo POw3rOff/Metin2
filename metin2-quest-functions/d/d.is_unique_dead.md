@@ -1,15 +1,15 @@
 # d.is_unique_dead()
-Функция **d.is_unique_dead** проверяет, мертв ли уникальный монстр.
+A função **d.is_unique_dead** verifica se мертв ли уникальный монстр.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя уникального монстра
+Tipo *string*. **Parâmetro obrigatório**. Nome do monstro único
 
-## Возвращаемые значения
+## Valores de retorno
 ### is_dead
-Тип *boolean*. `true`, если монстр мертв, а `false` &mdash; если жив. Также `false` возвращается в случаях, если параметр [unique_name](#unique_name) не является строкой или если функция была вызвана вне подземелья. `true`, если уникального монстра с таким именем не существует.
+Tipo *boolean*. `true`, se монстр мертв, а `false` &mdash; se жив. Также `false` é retornado в случаях, se параметр [unique_name](#unique_name) не является строкой ou se функция была вызвана вне подземелья. `true`, se уникального um monstro с таким именем não existe.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Функция работает только в подземельях.
+A função funciona apenas em masmorras.

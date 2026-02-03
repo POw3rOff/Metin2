@@ -1,18 +1,18 @@
 # sys_log()
 Функция **sys_log** записывает определенную ошибку в файл `syserr`.
 
-## Параметры функции
+## Parâmetros da função
 ### is_test_server
-Тип *number*. **Обязательный параметр**. Практическое применение этого параметра неизвестно. Если он будет равен `0`, то функция будет выполнена так, как и должна; если он будет равен `1` или больше, то функция не будет выполнена, если сервер не находится в тестовом режиме.
+Tipo *number*. **Parâmetro obrigatório**. Практическое применение этого параметра неизвестно. Se он будет равен `0`, então функция будет выполнена так, как и должна; se он будет равен `1` ou больше, então функция не будет выполнена, se сервер не находится в тестовом режиме.
 
 ### error_msg
-Тип *string*. **Обязательный параметр**. Сообщение об ошибке.
+Tipo *string*. **Parâmetro obrigatório**. Mensagem de erro.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Запись будет иметь следующий вид: `QUEST: quest: {quest_name} player: {player_name} : {error_msg}`, где `{quest_name}` &mdash; имя квеста, в котором была вызвана функция; `{player_name}` &mdash; имя игрока, который вызвал функцию; `{error_msg}` &mdash; значение параметра [error_msg](#error_msg).
+O registo terá a seguinte forma: `QUEST: quest: {quest_name} player: {player_name} : {error_msg}`, onde `{quest_name}` &mdash; o nome da missão onde a função foi chamada; `{player_name}` &mdash; o nome do jogador que chamou a função; `{error_msg}` &mdash; o valor do parâmetro [error_msg](#error_msg).
 
-Также игрок увидит в чате сообщение `QUEST_SYSERR {error_msg}`, если сервер находится в тестовом режиме &mdash; это единственное отличие этой функции от [sys_err](../global/sys_err.md)().
+Также игрок увидит в чате сообщение `QUEST_SYSERR {error_msg}`, se сервер находится в тестовом режиме &mdash; это единственное отличие этой функции от [sys_err](../global/sys_err.md)().
 
-Файл `syserr` находится в папке конфигурации каналов. Запись будет совершена только в один `syserr`; в тот, что находится в той же папке, которая соответствует каналу или подканалу игрока.
+O ficheiro `syserr` está localizado na pasta de configuração dos canais. O registo será feito apenas num `syserr`; naquele que está na mesma pasta, que corresponde ao canal ou subcanal do jogador.

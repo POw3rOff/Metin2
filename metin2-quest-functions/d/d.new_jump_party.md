@@ -1,17 +1,17 @@
 # d.new_jump_party()
 Функция **d.new_jump_party** создет подземелье и телепортирует в него всех участников группы.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации, в которой будет создано подземелье.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa, onde a masmorra será criada.
 
 ### x
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X sem os dois zeros no final.
 
 ### y
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y sem os dois zeros no final.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Телепортируются даже те игроки, которые торгуют.
+Até os jogadores que estão a negociar são teletransportados.

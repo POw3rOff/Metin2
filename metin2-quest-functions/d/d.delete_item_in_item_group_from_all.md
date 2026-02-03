@@ -1,7 +1,7 @@
 # d.delete_item_in_item_group_from_all()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

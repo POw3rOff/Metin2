@@ -1,14 +1,14 @@
 # d.set_unique()
-Функция **d.set_unique** позволяет пометить уникального монстра именем, используя его VID.
+Функция **d.set_unique** позволяет пометить уникального um monstro именем, используя его VID.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя уникального монстра.
+Tipo *string*. **Parâmetro obrigatório**. Nome do monstro único.
 
 ### mob_vid
-Тип *number*. **Обязательный параметр**. VID монстра.
+Tipo *number*. **Parâmetro obrigatório**. VID do monstro.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

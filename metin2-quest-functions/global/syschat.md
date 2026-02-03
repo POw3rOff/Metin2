@@ -1,12 +1,12 @@
 # syschat()
-Функция **syschat** отправляет уведомление в чат, которое увидит только игрок, вызвавший функцию.
+Функция **syschat** отправляет уведомление в чат, которое увидит только игрок, que chamou a função.
 
-## Параметры функции
+## Parâmetros da função
 ### message
-Тип *string*. **Обязательный параметр**. Уведомление, которое увидит пользователь, вызвавший функцию.
+Tipo *string*. **Parâmetro obrigatório**. A notificação que o utilizador verá, que chamou a função.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Цвет текста обычно красный.
 

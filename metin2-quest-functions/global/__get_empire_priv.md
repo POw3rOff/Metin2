@@ -1,16 +1,16 @@
 # __get_empire_priv()
-Функция **__get_empire_priv** сообщает количество процентов определенной квоты у определенной империи.
+A função **__get_empire_priv** informa количество процентов определенной квоты у определенной империи.
 
-## Параметры функции
+## Parâmetros da função
 ### empire_id
-Тип *number*. **Обязательный параметр**. ID империи. Если указать `0`, то будет выведена информация только о той квоте, что распространяется на все империи сразу.
+Tipo *number*. **Parâmetro obrigatório**. ID do império. Se especificar `0`, será exibida apenas a informação sobre a quota, que se aplica a todos os impérios de uma vez.
 
 ### priv_id
-Тип *number*. **Обязательный параметр**. ID квоты. `1` &mdash; дроп; `2` &mdash; янги; `3` &mdash; большие кучки янг; `4` &mdash; опыт.
+Tipo *number*. **Parâmetro obrigatório**. ID da quota. `1` &mdash; дроп; `2` &mdash; янги; `3` &mdash; большие кучки янг; `4` &mdash; опыт.
 
-## Возвращаемые значения
+## Valores de retorno
 ### priv_value
-Тип *number*. Количество процентов квоты. Если один из параметров не является числом, если были заданы не все параметры или если был задан неверный ID империи, то возвращается `0`.
+Tipo *number*. Количество процентов квоты. Se один из параметров não for um número, se были заданы не все параметры ou se был задан неверный ID do império, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

@@ -1,13 +1,13 @@
 # item_name()
-Функция **item_name** сообщает имя предмета по ID.
+A função **item_name** informa имя предмета по ID.
 
-## Параметры функции
+## Parâmetros da função
 ### item_vnum
-Тип *number*. **Обязательный параметр**. ID предмета.
+Tipo *number*. **Parâmetro obrigatório**. ID do item.
 
-## Возвращаемые значения
+## Valores de retorno
 ### item_name
-Тип *string*. Имя предмета. Если параметр [item_vnum](#item_vnum) не является числом или если предмет с заданным ID не был найден, то возвращается пустая строка.
+Tipo *string*. Nome do item. Se параметр [item_vnum](#item_vnum) não for um número ou se предмет с заданным ID не был найден, então é retornado uma string vazia.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

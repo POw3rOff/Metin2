@@ -1,9 +1,9 @@
 # is_test_server()
-Функция **is_test_server** сообщает, находится ли сервер в тестовом режиме или нет.
+Функция **is_test_server** informa, находится ли сервер в тестовом режиме ou нет.
 
-## Возвращаемые значения
+## Valores de retorno
 ### is_test_server
-Тип *boolean*. Находится ли сервер в тестовом режиме или нет. `true`, если находится; `false`, если нет.
+Tipo *boolean*. Находится ли сервер в тестовом режиме ou нет. `true`, se находится; `false`, se нет.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

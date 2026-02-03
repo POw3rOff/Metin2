@@ -1,17 +1,17 @@
 # char_log()
 Функция **char_log** сохраняет логи, привязанные к персонажу, в таблицу `log.log`.
 
-## Параметры функции
+## Parâmetros da função
 ### what
-Тип *number*. Данные, которые будут занесены в поле `what`. По умолчанию параметр равен `0`.
+Tipo *number*. Dados que serão inseridos no campo `what`. По умолчанию параметр равен `0`.
 
 ### how
-Тип *string*. Данные, которые будут занесены в поле `how`. По умолчанию параметр равен пустой строке.
+Tipo *string*. Dados que serão inseridos no campo `how`. Por defeito, o parâmetro é uma string vazia.
 
 ### hint
-Тип *string*. Данные, которые будут занесены в поле `hint`. По умолчанию параметр равен пустой строке.
+Tipo *string*. Dados que serão inseridos no campo `hint`. Por defeito, o parâmetro é uma string vazia.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-В таблицу `log.log` также заносится ID игрока в поле `who`.
+O ID do jogador também é inserido no campo `who` da tabela `log.log` `who`.

@@ -1,9 +1,9 @@
 # guild.get_ladder_point()
-Функция **guild.get_ladder_point** сообщает количество очков ранга у гильдии, в которой состоит игрок.
+A função **guild.get_ladder_point** informa количество очков ранга у гильдии, в ao qual состоит игрок.
 
-## Возвращаемые значения
+## Valores de retorno
 ### ladder_points
-Тип *number*. Количество очков ранга у гильдии. Если игрок не состоит в гильдии, то возвращается `-1`.
+Tipo *number*. Количество очков ранга у гильдии. Se игрок не состоит в гильдии, então é retornado `-1`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

@@ -1,15 +1,15 @@
 # item.copy_and_give_before_remove()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Параметры функции
+## Parâmetros da função
 ### item_vnum
-Тип *number*. **Обязательный параметр**. Значение данного параметра неизвестно.
+Tipo *number*. **Parâmetro obrigatório**. Значение данного параметра неизвестно.
 
-## Возвращаемые значения
+## Valores de retorno
 ### status
-Тип *boolean*. Значение данного возвращаемого значения неизвестно.
+Tipo *boolean*. O significado deste valor de retorno é desconhecido.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

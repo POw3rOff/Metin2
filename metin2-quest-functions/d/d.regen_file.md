@@ -1,13 +1,13 @@
 # d.regen_file()
 Функция **d.regen_file** исполняет regen-файл один раз.
 
-## Параметры функции
+## Parâmetros da função
 ### path
-Тип *string*. **Обязательный параметр**. Путь до regen-файла. Можно указать как полный путь, так и относительный. Относительный путь должен указываться относительно директории, в которой лежит игровое ядро.
+Tipo *string*. **Parâmetro obrigatório**. Caminho para o ficheiro regen. Pode especificar o caminho completo ou relativo. O caminho relativo deve ser especificado em relação ao diretório, onde o núcleo do jogo está localizado.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 В отличие от функции [d.set_regen_file](../d/d.set_regen_file.md)(), монстры, вызванные через эту функцию, появляются всего один раз независимо от того, что указано в настройках regen-файла (возможны неточности).
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

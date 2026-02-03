@@ -1,20 +1,20 @@
 # d.get_kill_mob_count()
-Функция **d.get_kill_mob_count** сообщает количество убитых игроками монстров за всё время нахождения в подземелье.
+A função **d.get_kill_mob_count** informa количество убитых игроками монстров за всё время нахождения na masmorra.
 
-## Параметры функции
+## Parâmetros da função
 ### empty_parameter1
-Тип *number*. **Обязательный параметр**. Параметр, который ни на что не влияет (возможно, это баг).
+Tipo *number*. **Parâmetro obrigatório**. Parâmetro que não afeta nada (possivelmente um bug).
 
 ### empty_parameter2
-Тип *number*. **Обязательный параметр**. Параметр, который ни на что не влияет (возможно, это баг).
+Tipo *number*. **Parâmetro obrigatório**. Parâmetro que não afeta nada (possivelmente um bug).
 
-## Возвращаемые значения
+## Valores de retorno
 ### kill_count
-Тип *number*. Количество убитых монстров. Если параметры [empty_parameter1](#empty_parameter1) и [empty_parameter2](#empty_parameter2) не определены, не являются числами или если функция вызвана вне подземелья, то возвращается `0`.
+Tipo *number*. Количество убитых монстров. Se параметры [empty_parameter1](#empty_parameter1) и [empty_parameter2](#empty_parameter2) не определены, не являются числами ou se функция вызвана вне подземелья, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-В качестве параметров необходимо указать совершенно любые числа, например `d.get_kill_mob_count(1, 1)`. Эти параметры ни на что не повлияют, но если их не указать, то функция вернет `0`. Это баг.
+В качестве параметров необходимо указать совершенно любые числа, например `d.get_kill_mob_count(1, 1)`. Эти параметры ни на что не повлияют, но se их не указать, então функция вернет `0`. Это баг.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

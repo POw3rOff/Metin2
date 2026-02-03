@@ -1,10 +1,10 @@
 # horse.feed()
-Функция **horse.feed** увеличивает параметр сытости у лошади.
+A função **horse.feed** aumenta o parâmetro de saciedade do cavalo.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Еда для лошади не тратится при использовании этой функции. Но если вы хотите принудить игроков тратить еду, чтобы кормить лошадь, то забирать ее придется самостоятельно примерно вот так:
+A comida para o cavalo não é gasta ao usar esta função. Mas se quiser forçar os jogadores a gastar comida, para alimentar o cavalo, então terá de a remover manualmente, algo assim:
 
 ````lua
 local food = horse.get_grade() - 1 + 50054

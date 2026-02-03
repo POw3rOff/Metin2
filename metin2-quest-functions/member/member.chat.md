@@ -1,9 +1,9 @@
 # member.chat()
-Назначение данной функции неизвестно.
+O objetivo desta função é desconhecido.
 
-## Параметры функции
+## Parâmetros da função
 ### message
-Тип *number*. **Обязательный параметр**. Сообщение.
+Tipo *number*. **Parâmetro obrigatório**. Сообщение.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

@@ -1,9 +1,9 @@
 # guild.get_any_war()
-Функция **guild.get_any_war** сообщает ID гильдии, против которой воюет гильдия, в которой состоит игрок.
+A função **guild.get_any_war** informa ID da guilda, против ao qual воюет гильдия, в ao qual состоит игрок.
 
-## Возвращаемые значения
+## Valores de retorno
 ### guild_id
-Тип *number*. ID гильдии-оппонента. Если игрок не состоит в гильдии или если гильдия не воюет, то возвращается `0`.
+Tipo *number*. ID da guilda-оппонента. Se игрок не состоит в гильдии ou se гильдия не воюет, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

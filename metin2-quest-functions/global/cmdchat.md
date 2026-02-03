@@ -1,11 +1,11 @@
 # cmdchat()
 Функция **cmdchat** вызывает команду внутри клиента.
 
-## Параметры функции
+## Parâmetros da função
 ### command
-Тип *string*. **Обязательный параметр**. Команда, которая будет исполнена в клиенте.
+Tipo *string*. **Parâmetro obrigatório**. O comando que será executado no cliente.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Эта функция &mdash; отличный способ взаимодействия клиента с квестами. Прочтите статью <a href="/s/articles/client-quest-communications">о взаимодействии клиента и квестов</a>.

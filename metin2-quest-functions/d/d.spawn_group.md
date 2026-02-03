@@ -1,18 +1,18 @@
 # d.spawn_group()
-Функция **d.spawn_group** призывает группу монстров в подземелье.
+A função **d.spawn_group** invoca группу монстров na masmorra.
 
-## Параметры функции
+## Parâmetros da função
 ### group_vnum
-Тип *number*. **Обязательный параметр**. ID группы монстров из файла `group.txt`.
+Tipo *number*. **Parâmetro obrigatório**. ID группы монстров из файла `group.txt`.
 
 ### x
-Тип *number*. **Обязательный параметр**. Локальная координата по оси X без двух нулей на конце, куда будет призвана группа монстров.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada local no eixo X sem os dois zeros no final, куда будет призвана группа монстров.
 
 ### y
-Тип *number*. **Обязательный параметр**. Локальная координата по оси Y без двух нулей на конце, куда будет призвана группа монстров.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada local no eixo Y sem os dois zeros no final, куда будет призвана группа монстров.
 
 ### radius
-Тип *number*. **Обязательный параметр**. Допустимая погрешность в координатах при появлении группы монстров. Если параметр равен, допустим, 15, то координаты появления группы монстров будут равны ([x](#x) &plusmn; 15, [y](#y) &plusmn; 15); тоже самое в виде квеста:
+Tipo *number*. **Parâmetro obrigatório**. Допустимая погрешность в координатах при появлении группы монстров. Se параметр равен, por exemplo, 15, então координаты появления группы монстров serão iguais a ([x](#x) &plusmn; 15, [y](#y) &plusmn; 15); o mesmo na forma de missão:
 
 ````lua
 local group_vnum = 101
@@ -31,18 +31,18 @@ d.spawn_group(
 ````
 
 ### agressive
-Тип *boolean*. **Обязательный параметр**. Агрессивны ли будут монстры или нет.
+Tipo *boolean*. **Parâmetro obrigatório**. Агрессивны ли будут монстры ou нет.
 
 ### count
-Тип *number*. **Обязательный параметр**. Количество призываемых групп.
+Tipo *number*. **Parâmetro obrigatório**. Количество призываемых групп.
 
-## Возвращаемые значения
+## Valores de retorno
 ### mob_vid
-Тип *number*. VID лидера одной из групп.
+Tipo *number*. VID лидера одной из групп.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Если было вызвано несколько групп, возвращается VID только лидера одной из них.
+Se было вызвано несколько групп, é retornado VID только лидера одной из них.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

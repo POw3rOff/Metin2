@@ -1,9 +1,9 @@
 # forked.getsungzimapindex()
-Функция **forked.getsungzimapindex** сообщает индекс локации, которая является ареной для битвы империй.
+A função **forked.getsungzimapindex** informa индекс локации, которая является ареной для битвы империй.
 
-## Возвращаемые значения
+## Valores de retorno
 ### map_index
-Тип *number*. Индекс локации, которая является ареной для битвы империй.
+Tipo *number*. Índice do mapa, которая является ареной для битвы империй.
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.

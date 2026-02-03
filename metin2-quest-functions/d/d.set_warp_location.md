@@ -1,17 +1,17 @@
 # d.set_warp_location()
-При вызове функции **d.set_warp_location** все персонажи в подземелье запоминают координаты, которые будут использоваться в некоторых функциях.
+При вызове функции **d.set_warp_location** все персонажи na masmorra запоминают координаты, которые будут использоваться в некоторых функциях.
 
-## Параметры функции
+## Parâmetros da função
 ### map_index
-Тип *number*. **Обязательный параметр**. Индекс локации.
+Tipo *number*. **Parâmetro obrigatório**. Índice do mapa.
 
 ### x
-Тип *number*. **Обязательный параметр**. Серверная координата по оси X без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo X sem os dois zeros no final.
 
 ### y
-Тип *number*. **Обязательный параметр**. Серверная координата по оси Y без двух нулей на конце.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada do servidor no eixo Y sem os dois zeros no final.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

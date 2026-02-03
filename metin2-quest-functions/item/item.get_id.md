@@ -1,13 +1,13 @@
 # item.get_id()
-Функция **item.get_id** сообщает уникальный ID предмета.
+A função **item.get_id** informa уникальный ID do item.
 
-## Возвращаемые значения
+## Valores de retorno
 ### item_id
-Тип *number*. Уникальный ID предмета. Если предмет не был &laquo;выделен&raquo;, то возвращается `0`.
+Tipo *number*. Уникальный ID do item. Se o item não tiver sido &laquo;selecionado&raquo;, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-В таблице `player.item` хранятся все предметы, которые есть на сервере, каждый из которых имеет уникальный ID. Вот эта функция этот ID и возвращает.
+В таблице `player.item` хранятся все предметы, которые есть на сервере, каждый из которых имеет уникальный ID. Вот эта функция этот ID и retorna.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

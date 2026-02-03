@@ -1,13 +1,13 @@
 # __get_guildid_byname()
-Функция **__get_guildid_byname** сообщает ID, который принадлежит гильдии. Поиск происходит по имени гильдии.
+A função **__get_guildid_byname** informa ID, который принадлежит гильдии. Поиск происходит по имени гильдии.
 
-## Параметры функции
+## Parâmetros da função
 ### guild_name
-Тип *string*. **Обязательный параметр**. Имя гильдии.
+Tipo *string*. **Parâmetro obrigatório**. Nome da guilda.
 
-## Возвращаемые значения
+## Valores de retorno
 ### guild_id
-Тип *number*. ID гильдии. Если параметр [guild_name](#guild_name) не является строкой, если этот параметр не был указан или если гильдии с заданным именем не существует, то возвращается `0`.
+Tipo *number*. ID da guilda. Se параметр [guild_name](#guild_name) не является строкой, se этот параметр не был указан ou se гильдии с заданным именем não existe, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

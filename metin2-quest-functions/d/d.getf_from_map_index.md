@@ -1,16 +1,16 @@
 # d.getf_from_map_index()
 Функция **d.getf_from_map_index** позволяет получить значение флага подземелья по его уникальному ID.
 
-## Параметры функции
+## Parâmetros da função
 ### flag_name
-Тип *string*. **Обязательный параметр**. Название флага.
+Tipo *string*. **Parâmetro obrigatório**. Nome da flag.
 
 ### dungeon_id
-Тип *number*. **Обязательный параметр**. Уникальный ID подземелья.
+Tipo *number*. **Parâmetro obrigatório**. ID único da masmorra.
 
-## Возвращаемые значения
+## Valores de retorno
 ### value
-Тип *number*. Значение флага. Если флаг не был задан ранее, а также если подземелье с указанным в параметре [dungeon_id](#dungeon_id) не было найдено, то возвращается `0`.
+Tipo *number*. Valor da flag. Se флаг não foi definido ранее, а также se подземелье с указанным в параметре [dungeon_id](#dungeon_id) не было найдено, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

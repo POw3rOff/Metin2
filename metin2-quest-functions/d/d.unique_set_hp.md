@@ -1,14 +1,14 @@
 # d.unique_set_hp()
-Функция **d.unique_set_hp** изменяет здоровье у уникального монстра.
+A função **d.unique_set_hp** altera здоровье у уникального um monstro.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя уникального монстра.
+Tipo *string*. **Parâmetro obrigatório**. Nome do monstro único.
 
 ### health
-Тип *number*. **Обязательный параметр**. Количество единиц здоровья.
+Tipo *number*. **Parâmetro obrigatório**. Количество единиц здоровья.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

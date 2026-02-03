@@ -1,15 +1,15 @@
 # get_quest_state()
-Функция **get_quest_state** сообщает ID стадии определенного квеста.
+A função **get_quest_state** informa ID стадии определенного квеста.
 
-## Параметры функции
+## Parâmetros da função
 ### quest_name
-Тип *string*. **Обязательный параметр**. Название квеста. Нужно указать не название квестового файла, а то, как вы назвали квест в конструкции `quest ... begin`.
+Tipo *string*. **Parâmetro obrigatório**. Nome da missão. Não deve especificar o nome do ficheiro da missão, mas sim como nomeou a missão na construção `quest ... begin`.
 
-## Возвращаемые значения
+## Valores de retorno
 ### state_id
-Тип *number*. ID стадии квеста. Если функция была вызвана через [server_timer](../triggers/server_timer.md) или если квеста с заданным именем не существует, то возвращается `0`. Если параметр [quest_name](#quest_name) не является строкой, то функция вообще ничего не возвращает.
+Tipo *number*. ID стадии квеста. Se функция была вызвана через [server_timer](../triggers/server_timer.md) ou se квеста с заданным именем não existe, então é retornado `0`. Se параметр [quest_name](#quest_name) не является строкой, então функция вообще ничего не retorna.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Неизвестно, по какому принципу получается ID стадии.

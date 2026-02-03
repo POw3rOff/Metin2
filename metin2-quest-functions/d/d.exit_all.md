@@ -1,11 +1,11 @@
 # d.exit_all()
 Функция **d.exit_all** выбрасывает всех игроков из подземелья на координаты, заданные функциями [pc.set_warp_location](../pc/pc.set_warp_location.md)(), [pc.set_warp_location_local](../pc/pc.set_warp_location_local.md)() и [d.set_warp_location](../d/d.set_warp_location.md)().
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Телепортация возможна даже во время торга.
+O teletransporte é possível mesmo durante a negociação.
 
 Эта функция имеет аналог, работающий на определенного участника подземелья &mdash; [d.exit](../d/d.exit.md)().
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

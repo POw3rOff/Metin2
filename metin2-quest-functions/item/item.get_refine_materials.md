@@ -1,13 +1,13 @@
 # item.get_refine_materials()
-Функция **item.get_refine_materials** сообщает необходимые материалы для улучшения &laquo;выделенного&raquo; предмета.
+A função **item.get_refine_materials** informa необходимые материалы для улучшения &laquo;выделенного&raquo; предмета.
 
-## Возвращаемые значения
+## Valores de retorno
 ### materials
-Тип *mixed*. В случае, если предмет не был &laquo;выделен&raquo; или если у предмета указан `refine_set`, которого нет в таблице `player.refine_proto`, то ничего не возвращается, то бишь `nil`.
+Tipo *mixed*. В случае, se предмет не был &laquo;выделен&raquo; ou se у предмета указан `refine_set`, которого нет в таблице `player.refine_proto`, então nada é retornado, ou seja `nil`.
 
-В случае, если улучшение предмета стоит 0 янг и не требует никаких ресурсов, то возвращается `0` <sup>number</sup>.
+В случае, se улучшение предмета стоит 0 янг и не требует никаких ресурсов, então é retornado `0` <sup>number</sup>.
 
-В случае, если функция выполнилась без ошибок, то возвращается таблица, которая выглядит примерно вот так:
+В случае, se функция выполнилась без ошибок, então é retornado таблица, которая выглядит примерно вот так:
 
 ````lua
 {
@@ -22,11 +22,11 @@
 ````
 
 * `refine_cost` &mdash; стоимость улучшения в янгах;
-* `count_of_materials` &mdash; количество разных материалов (например, если на улучшение предмета надо 8 костей и 3 волчьи шкуры, то этот параметр будет равен 2);
+* `count_of_materials` &mdash; количество разных материалов (например, se на улучшение предмета надо 8 костей и 3 волчьи шкуры, então этот параметр будет равен 2);
 * `material_vnum` &mdash; vnum материала;
 * `count_of_this_material` &mdash; количество этого самого материала.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

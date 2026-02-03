@@ -1,9 +1,9 @@
 # game.set_safebox_level()
 Значение данной функции неизвестно.
 
-## Параметры функции
+## Parâmetros da função
 ### safebox_level
-Тип *number*. **Обязательный параметр**. Уровень склада.
+Tipo *number*. **Parâmetro obrigatório**. Уровень склада.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

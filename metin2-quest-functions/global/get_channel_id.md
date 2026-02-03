@@ -1,11 +1,11 @@
 # get_channel_id()
-Функция **get_channel_id** сообщает ID канала, на котором находится игрок.
+A função **get_channel_id** informa ID канала, на котором находится игрок.
 
-## Возвращаемые значения
+## Valores de retorno
 ### channel_id
-Тип *number*. ID канала.
+Tipo *number*. ID канала.
 
-## Примечания
-Неизвестно, может ли эта функция быть вызвана анонимно.
+## Notas
+Não se sabe se esta função pode ser chamada anonimamente.
 
 ID подканала с помощью этой функции узнать нельзя.

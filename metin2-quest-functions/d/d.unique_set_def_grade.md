@@ -1,16 +1,16 @@
 # d.unique_set_def_grade()
-Функция **d.unique_set_def_grade** увеличивает защиту уникального монстра.
+A função **d.unique_set_def_grade** aumenta защиту уникального um monstro.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя уникального монстра.
+Tipo *string*. **Parâmetro obrigatório**. Nome do monstro único.
 
 ### defence
-Тип *number*. **Обязательный параметр**. Количество единиц защиты.
+Tipo *number*. **Parâmetro obrigatório**. Количество единиц защиты.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Защита выдается в виде бонуса с ID `83`.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

@@ -1,13 +1,13 @@
 # find_npc_by_vnum()
-Функция **find_npc_by_vnum** ищет монстра с заданным ID на локации, где находится игрок, и сообщает его VID.
+Функция **find_npc_by_vnum** ищет um monstro с заданным ID на локации, onde находится игрок, и informa его VID.
 
-## Параметры функции
+## Parâmetros da função
 ### mob_vnum
-Тип *number*. **Обязательный параметр**. ID монстра.
+Tipo *number*. **Parâmetro obrigatório**. ID do monstro.
 
-## Возвращаемые значения
+## Valores de retorno
 ### mob_vid
-Тип *number*. VID монстра. Если праметр **mob_vnum** не был задан или не является числом, или если монстр с заданным ID не был найден, то возвращается `0`.
+Tipo *number*. VID do monstro. Se праметр **mob_vnum** não foi definido ou não for um número, ou se монстр с заданным ID не был найден, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.

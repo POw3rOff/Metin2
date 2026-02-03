@@ -1,18 +1,18 @@
 # d.spawn_mob()
-Функция **d.spawn_mob** призывает монстра или NPC в подземелье.
+A função **d.spawn_mob** invoca um monstro ou NPC na masmorra.
 
-## Параметры функции
+## Parâmetros da função
 ### mob_vnum
-Тип *number*. **Обязательный параметр**. ID монстра.
+Tipo *number*. **Parâmetro obrigatório**. ID do monstro.
 
 ### x
-Тип *number*. **Обязательный параметр**. Локальная координата по оси X без двух нулей на конце, куда будет призван монстр.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada local no eixo X sem os dois zeros no final, para onde o monstro será invocado.
 
 ### y
-Тип *number*. **Обязательный параметр**. Локальная координата по оси Y без двух нулей на конце, куда будет призван монстр.
+Tipo *number*. **Parâmetro obrigatório**. Coordenada local no eixo Y sem os dois zeros no final, para onde o monstro será invocado.
 
 ### radius
-Тип *number*. Допустимая погрешность в координатах при появлении монстра. Если параметр равен, допустим, 15, то координаты появления монстра будут равны ([x](#x) &plusmn; 15, [y](#y) &plusmn; 15); тоже самое в виде квеста: 
+Tipo *number*. Margem de erro nas coordenadas ao aparecer o monstro. Se параметр равен, por exemplo, 15, então координаты появления um monstro serão iguais a ([x](#x) &plusmn; 15, [y](#y) &plusmn; 15); o mesmo na forma de missão:
 
 ````lua
 local mob_vnum = 101
@@ -29,16 +29,16 @@ d.spawn_mob(
 )
 ````
 
-Параметр по умолчанию равен `0`.
+O parâmetro por defeito é igual a `0`.
 
 ### count
-Тип *number*. Количество призываемых монстров. Параметр по умолчанию равен `1`.
+Tipo *number*. Quantidade de monstros invocados. O parâmetro por defeito é igual a `1`.
 
-## Возвращаемые значения
+## Valores de retorno
 ### mob_vid
-Тип *number*. VID призванного монстра.
+Tipo *number*. VID do monstro invocado.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

@@ -1,16 +1,16 @@
 # d.spawn_stone_door()
-Функция **d.spawn_stone_door** призывает каменную дверь с уникальным именем.
+A função **d.spawn_stone_door** invoca каменную дверь с уникальным именем.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя, которое позволит идентифицировать дверь как уникального монстра.
+Tipo *string*. **Parâmetro obrigatório**. Um nome que permitirá identificar a porta como um monstro único.
 
-### Неизвестный параметр
-Тип *string*. **Обязательный параметр**. Назначение параметра неизвестно. 
+### Parâmetro Desconhecido
+Tipo *string*. **Parâmetro obrigatório**. O objetivo do parâmetro é desconhecido.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Призванная дверь будет иметь ID `13001`.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

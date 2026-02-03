@@ -1,15 +1,15 @@
 # d.get_unique_vid()
-Функция **d.get_unique_vid** сообщает VID уникального монстра.
+A função **d.get_unique_vid** informa VID уникального um monstro.
 
-## Параметры функции
+## Parâmetros da função
 ### unique_name
-Тип *string*. **Обязательный параметр**. Имя уникального монстра.
+Tipo *string*. **Parâmetro obrigatório**. Nome do monstro único.
 
-## Возвращаемые значения
+## Valores de retorno
 ### mob_vid
-Тип *number*. VID уникального монстра. Если параметр [unique_name](#unique_name) не является строкой, если функция вызвана вне подземелья или если уникальный монстр с таким именем не найден, то возвращается `0`.
+Tipo *number*. VID уникального um monstro. Se параметр [unique_name](#unique_name) не является строкой, se функция вызвана вне подземелья ou se уникальный монстр с таким именем не найден, então é retornado `0`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Эта функция работает только в подземельях.
+Esta função funciona apenas em masmorras.

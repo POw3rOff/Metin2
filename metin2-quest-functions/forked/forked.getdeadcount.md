@@ -1,11 +1,11 @@
 # forked.getdeadcount()
-Функция **forked.getdeadcount** сообщает, сколько раз может умереть игрок во время битвы империй.
+Функция **forked.getdeadcount** informa, сколько раз может умереть игрок во время битвы империй.
 
-## Возвращаемые значения
+## Valores de retorno
 ### dead_count
-Тип *number*. Число, означающее, сколько ещё раз может умереть игрок. Если функция была вызвана вне битвы империй, то возвращается `0`.
+Tipo *number*. Число, означающее, сколько ещё раз может умереть игрок. Se функция была вызвана вне битвы империй, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Данная функция работает только во время битвы империй (см. [forked](../forked)).
+Esta função funciona apenas durante a batalha dos impérios (ver [forked](../forked)).

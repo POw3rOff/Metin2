@@ -1,9 +1,9 @@
 # guild.get_warp_war_list()
-Функция **guild.get_warp_war_list** сообщает список воюющих гильдий.
+A função **guild.get_warp_war_list** informa список воюющих гильдий.
 
-## Возвращаемые значения
+## Valores de retorno
 ### war_list
-Тип *table*. Список воюющих гильдий. Таблица выглядит примерно так:
+Tipo *table*. Список воюющих гильдий. Таблица выглядит примерно так:
 
 ````lua
 {
@@ -13,12 +13,12 @@
 }
 ````
 
-В данном примере `guild1` <sup>number</sup> &mdash; ID первой гильдии, а `guild2` <sup>number</sup> &mdash; ID второй гильдии. Если нет войн, то возвращается пустая таблица, то бишь `{}`.
+В данном примере `guild1` <sup>number</sup> &mdash; ID первой гильдии, а `guild2` <sup>number</sup> &mdash; ID второй гильдии. Se нет войн, então é retornado пустая таблица, ou seja `{}`.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
-Функция вернет что-то вроде такого:
+Функция вернет что-então вроде такого:
 
 ````lua
 {
@@ -27,4 +27,4 @@
 }
 ````
 
-Лучше использовать функцию [guild.get_reserve_war_table](../guild/guild.get_reserve_war_table.md)() &mdash; она возвращает больше информации.
+Лучше использовать функцию [guild.get_reserve_war_table](../guild/guild.get_reserve_war_table.md)() &mdash; она retorna больше информации.

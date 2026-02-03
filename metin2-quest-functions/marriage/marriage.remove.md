@@ -1,7 +1,7 @@
 # marriage.remove()
-Функция **marriage.remove** удаляет семью, в которой состоит игрок.
+A função **marriage.remove** remove семью, в ao qual состоит игрок.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Эта функция может не работать в некоторых версиях 2089-го ядра.

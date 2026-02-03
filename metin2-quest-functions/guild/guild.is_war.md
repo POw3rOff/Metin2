@@ -1,13 +1,13 @@
 # guild.is_war()
-Функция **guild.is_war** сообщает, находится ли определенная гильдия в состоянии войны или нет.
+Функция **guild.is_war** informa, находится ли определенная гильдия в состоянии войны ou нет.
 
-## Параметры функции
+## Parâmetros da função
 ### guild_id
-Тип *number*. **Обязательный параметр**. ID гильдии.
+Tipo *number*. **Parâmetro obrigatório**. ID da guilda.
 
-## Возвращаемые значения
+## Valores de retorno
 ### is_under_war
-Тип *boolean*. Находится ли гильдия в состоянии войны или нет. `true`, если да и `false`, если нет или если гильдии с заданным ID нет на сервере.
+Tipo *boolean*. Находится ли гильдия в состоянии войны ou нет. `true`, se да и `false`, se нет ou se гильдии с заданным ID нет на сервере.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

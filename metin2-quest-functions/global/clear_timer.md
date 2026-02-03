@@ -1,11 +1,11 @@
 # clear_timer()
 Функция **clear_timer** обнуляет таймер, привязанный к персонажу.
 
-## Параметры функции
+## Parâmetros da função
 ### timer_name
-Тип *string*. **Обязательный параметр**. Имя таймера.
+Tipo *string*. **Parâmetro obrigatório**. Nome do temporizador.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
 Другими словами, обнуление серверного таймера значит, что триггер [timer](../_triggers/timer.md) не сработает.

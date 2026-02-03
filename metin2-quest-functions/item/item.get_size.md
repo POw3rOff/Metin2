@@ -1,11 +1,11 @@
 # item.get_size()
-Функция **item.get_size** сообщает количество занимаемых &laquo;выделенным&raquo; предметом ячеек.
+A função **item.get_size** informa количество занимаемых &laquo;выделенным&raquo; предметом ячеек.
 
-## Возвращаемые значения
+## Valores de retorno
 ### item_size
-Тип *number*. Количество ячеек по вертикали, занимаемых предметом в инвентаре. Если предмет не был &laquo;выделен&raquo;, то возвращается `0`.
+Tipo *number*. Количество ячеек по вертикали, занимаемых предметом в инвентаре. Se o item não tiver sido &laquo;selecionado&raquo;, então é retornado `0`.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Эта функция работает только с &laquo;выделенными&raquo; предметами. Подробнее тут: [item](../item).
+Esta função funciona apenas com itens &laquo;selecionados&raquo;. Mais detalhes aqui: [item](../item).

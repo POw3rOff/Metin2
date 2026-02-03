@@ -1,5 +1,5 @@
 # forked.purge_all_monsters()
-Функция **forked.purge_all_monsters** удаляет всех монстров в &laquo;локациях-проходах&raquo;.
+A função **forked.purge_all_monsters** remove всех монстров в &laquo;локациях-проходах&raquo;.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.

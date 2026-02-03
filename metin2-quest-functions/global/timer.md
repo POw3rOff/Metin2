@@ -1,14 +1,14 @@
 # timer()
-Функция **timer** создает таймер, привязанный к персонажу.
+A função **timer** cria таймер, привязанный к персонажу.
 
-## Параметры функции
+## Parâmetros da função
 ### timer_name
-Тип *string*. **Обязательный параметр**. Имя таймера. Должно начинаться с латинской буквы. Может содержать только латиницу, нижние прочерки и числа.
+Tipo *string*. **Parâmetro obrigatório**. Nome do temporizador. Deve começar com uma letra latina. Pode conter apenas letras latinas, sublinhados e números.
 
 ### time
-Тип *number*. **Обязательный параметр**. Количество секунд, по прошествии которых сработает таймер.
+Tipo *number*. **Parâmetro obrigatório**. Quantidade de segundos, após os quais o temporizador será acionado.
 
-## Примечания
-Функция **не** может быть вызвана анонимно.
+## Notas
+A função **não** pode ser chamada anonimamente.
 
-Обратите внимание на то, что после выхода из игры и после телепортации таймер будет обнулён.
+Note que após sair do jogo e após o teletransporte, o temporizador será reiniciado.

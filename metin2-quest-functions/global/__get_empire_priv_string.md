@@ -1,15 +1,15 @@
 # __get_empire_priv_string()
-Функция **__get_empire_priv_string** сообщает в виде строки количество квоты у определенной империи.
+A função **__get_empire_priv_string** informa в виде строки количество квоты у определенной империи.
 
-## Параметры функции
+## Parâmetros da função
 ### empire_id
-Тип *number*. **Обязательный параметр**. ID империи. Если указать `0`, то будет выведена информация только о той квоте, что распространяется на все империи сразу.
+Tipo *number*. **Parâmetro obrigatório**. ID do império. Se especificar `0`, será exibida apenas a informação sobre a quota, que se aplica a todos os impérios de uma vez.
 
-## Возвращаемые значения
+## Valores de retorno
 ### priv_value
-Тип *string*. Строка с описанием всех квот, которые принадлежат империи. Если у империи нет ни одной квоты или если был задан неверный ID империи, то возвращается `None!`. Обратите внимание на то, что пусть `None!` и состоит из 5 символов, но функция [string.len](../string/string.len.md)() почему-то говорит, что их там 6.
+Tipo *string*. Строка с описанием всех квот, которые принадлежат империи. Se у империи нет ни одной квоты ou se был задан неверный ID do império, então é retornado `None!`. Обратите внимание на então, что пусть `None!` и состоит из 5 символов, но функция [string.len](../string/string.len.md)() почему-então говорит, что их там 6.
 
-## Примечания
-Функция может быть вызвана анонимно.
+## Notas
+A função pode ser chamada anonimamente.
 
 Не рекомендуется использовать эту функцию. Вместо нее лучше использовать [__get_empire_priv](../global/__get_empire_priv.md)().
